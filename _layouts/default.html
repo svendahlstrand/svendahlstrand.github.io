@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="/stylesheets/all.css" type="text/css" media="screen" />
+    <link rel="alternate" href="/atom.xml" type="application/atom+xml" title="Sven Dahlstrand Atomflöde" />
+    <title>
+      {% if page.title %}
+        {{ page.title }} - Sven Dahlstrand
+      {% else %}
+        Sven Dahlstrand - Webbutveckling, Mac, Cocktails med mera
+      {% endif %}
+    </title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="aside">
+        <h1>
+          <a href="/"><img src="/images/sven_dahlstrand.png" alt="Sven Dahlstrand" width="198" height="145" /></a>
+        </h1>
+        <p>
+          Webbutveckling, Mac, Cocktails med mera
+        </p>
+      </div>
+      <div id="content">
+        {{ content }}
+      </div>
+    </div>
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    try {
+    var pageTracker = _gat._getTracker("UA-1941803-6");
+    pageTracker._trackPageview();
+    } catch(err) {}</script>
+    <script type="text/javascript" src="/javascripts/all.js"></script>
+  </body>
+</html>

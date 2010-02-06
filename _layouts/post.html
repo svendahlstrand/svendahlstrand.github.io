@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<h1>
+  {{ page.title }}
+</h1>
+{{ content }}
+<ul class="meta_data">
+  <li>
+    <img src="/images/date_posted.png" alt="" width="26" height="26" />&nbsp;Postat den {{ page.date | localized_date: "%e %B %Y" }}
+  </li>
+</ul>

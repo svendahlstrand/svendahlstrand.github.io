@@ -7,6 +7,6 @@ layout: default
 {{ content }}
 <ul class="meta_data">
   <li>
-    <img src="/images/date_posted.png" alt="" width="26" height="26" />&nbsp;Postat den {{ page.date | localized_date: "%e %B %Y" }}
+    <img src="/images/date_posted.png" alt="" width="26" height="26" />&nbsp;Postat den {{ page.date | date: "%e %B %Y" }}
   </li>
 </ul>

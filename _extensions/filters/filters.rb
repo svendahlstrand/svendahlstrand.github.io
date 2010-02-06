@@ -1,6 +1,6 @@
 module Jekyll
   module Filters
-    def localized_date(date, string)
+    def date(input, format)
       months = {
         'January' => 'januari',
         'February' => 'februari',
@@ -16,11 +16,11 @@ module Jekyll
         'December' => 'december'
       }
 
-      date = date.strftime(string)
+      input = input.strftime(format)
 
-      months.each { |pattern, replacement| date.gsub!(pattern, replacement) }
-      
-      date
+      months.each { |pattern, replacement| input.gsub!(pattern, replacement) }
+
+      return input
     end
   end
 end

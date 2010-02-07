@@ -47,6 +47,40 @@ li {
   width: 240px;
 }
 
+#aside ul {
+  list-style-type: none;
+  text-align: left;
+  width: 100%;
+}
+
+#aside ul img {
+  vertical-align: middle;
+}
+
+#aside span {
+  background: #333;
+  color: #fff;
+  display: block;
+  float: right;
+  padding: 0.2em;
+  text-align: center;
+  width: 3em;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+#aside #statuses_count {
+  display: none;
+}
+
+#tweet {
+  background: #333;
+  color: #fff;
+  padding: 0.2em;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
 #aside h2 {
   font-size: 36px;
 }
@@ -73,16 +107,15 @@ h2 {
 
 a {
   color: #0071bc;
+  text-decoration: none;
 }
 
 h2 a {
   color: #1a1a1a;
-  text-decoration: none;
 }
 
 h2 a:hover {
   color: #0071bc;
-  text-decoration: underline;
 }
 
 #content p img {

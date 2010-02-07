@@ -72,8 +72,15 @@ li {
 }
 
 #tweet {
+  background: url('/images/bubble.png') top left no-repeat;
+  margin-top: -1em;
+  padding-top: 8px;
+}
+
+#tweet p {
   background: #333;
   color: #fff;
+  margin: 0;
   padding: 0.2em;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;

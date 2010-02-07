@@ -10,7 +10,7 @@ $(function() {
 
       box.text(data.statuses_count);
       box.fadeIn("slow", function() {
-        var paragraph = $('<p id="tweet">' + data.status.text + "</p>").hide();
+        var paragraph = $('<div id="tweet"><p>' + data.status.text + "</p></div>").hide();
         $("#aside").append(paragraph);
         paragraph.fadeIn("slow");
       });
@@ -18,6 +18,6 @@ $(function() {
   } else {
     box.text(statuses_count);
     box.show();
-    $("#aside").append('<p id="tweet">' + status_text + "</p>");
+    $("#aside").append('<div id="tweet"><p>' + status_text + "</p></div>");
   }
 });

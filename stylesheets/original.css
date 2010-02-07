@@ -27,7 +27,6 @@ body {
 }
 ol, ul {
 	list-style-position: inside;
-	width: 80%;
 }
 li {
   margin: 0.5em 0;
@@ -50,7 +49,6 @@ li {
 #aside ul {
   list-style-type: none;
   text-align: left;
-  width: 100%;
 }
 
 #aside ul img {
@@ -124,9 +122,15 @@ h2 a:hover {
   box-shadow: 0 0 20px #4d4d4d;
 }
 
+#content p img.right {
+  float: right;
+  margin: 0 0 1em 1em;
+}
+
 .meta_data {
   border-bottom: solid 1px #ccc;
-  padding-bottom: 2em;
+  clear: both;
+  padding-bottom: 1.5em;
 }
 
 .meta_data li {
@@ -165,4 +169,16 @@ pre {
 }
 .variables {
   color: #d1d1fe;
+}
+
+input {
+  background: #f2f2f2;
+  border: solid 2px #ccc;
+  color: #4d4d4d;
+  font-family: Helvetica;
+  font-size: 14px;
+  padding: 0.3em;
+  width: 230px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
 }

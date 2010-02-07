@@ -8,10 +8,10 @@ layout: default
   {{ post.content | truncatewords: 80 }}
   <ul class="meta_data">
     <li>
-      <img src="/images/date_posted.png" alt="" width="26" height="26" />&nbsp;Postat den {{ post.date | date: "%e %B %Y" }}
+      <img src="/images/date_posted.png" alt="" width="26" height="26" /> Postat den {{ post.date | date: "%e %B %Y" }}
     </li>
     <li>
-      <img src="/images/read_more.png" alt="" width="26" height="26">&nbsp;<a href="{{ post.url }}">Läs hela artikeln</a>
+      <a href="{{ post.url }}"><img src="/images/read_more.png" alt="" width="26" height="26"> Läs hela artikeln</a>
     </li>
   </ul>
 {% endfor %}

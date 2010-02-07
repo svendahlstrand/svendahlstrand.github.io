@@ -3,7 +3,7 @@ layout: post
 title: Homebrew - En pakethanterare för OS X
 ---
 
-Som webbutvecklare drar jag nytta av mycket fri mjukvara som till exempel "git":http://git-scm.com/, "imagemagick":http://www.imagemagick.org/ och "wine":http://www.winehq.org/. De flesta *nix-smaker har pakethanterare som underlättar installationen. BSD har ports, Debian har dpkg och många andra Linuxdistributioner kör RPM till exempel. På OS&nbsp;X har det länge varit antingen "Fink":http://www.finkproject.org/ eller "MacPorts":http://www.macports.org/ som gäller.
+Som webbutvecklare drar jag nytta av mycket fri mjukvara som till exempel "git":http://git-scm.com/, "imagemagick":http://www.imagemagick.org/ och "wine":http://www.winehq.org/. De flesta *nix-smaker har pakethanterare som underlättar installationen. BSD har ports, Debian har dpkg och många andra Linuxdistributioner kör RPM till exempel. På OS X har det länge varit antingen "Fink":http://www.finkproject.org/ eller "MacPorts":http://www.macports.org/ som gäller.
 
 Jag har inte riktigt varit förtjust i någon av dem. Jag har till exempel inte hittat alla paket jag behöver i Fink och MacPorts känns tungrott då det installerar paket som redan finns på din Mac från början. Jag har sedan ett tag tillbaka i stället använt "Homebrew":http://github.com/mxcl/homebrew som min pakethanterare.
 

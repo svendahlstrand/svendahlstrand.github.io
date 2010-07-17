@@ -19,18 +19,16 @@ Det finns många fördelar med Homebrew:
 
 h2. Hur kommer jag igång?
 
-Det enda du behöver innan vi kör igång är "Xcode":http://developer.apple.com/technology/xcode.html. Om du har din installationsskiva för OS X kvar kan du installera Xcode därifrån. Homebrew kan, som jag nämnde tidigare, installeras vart som helst men jag föredrar <code>/usr/local</code>. Så här lätt installerar du från terminalen:
+Det enda du behöver innan vi kör igång är "Xcode":http://developer.apple.com/technologies/xcode.html. Om du har din installationsskiva för OS X kvar kan du installera Xcode därifrån. Homebrew kan, som jag nämnde tidigare, installeras vart som helst men jag föredrar <code>/usr/local</code>. Så här lätt installerar du från terminalen:
 
-<pre><code class="shell"># Vill du slippa använda sudo? Ta över ägandeskapet på /usr/local.
-sudo chown -R `whoami` /usr/local
-# Ladda hem och installera Homebrew från GitHub.
-curl -L http://github.com/mxcl/homebrew/tarball/master | tar xz --strip 1 -C /usr/local
+<pre><code class="shell"># Ladda hem och installera Homebrew från GitHub.
+ruby -e "$(curl -fsS http://gist.github.com/raw/323731/install_homebrew.rb)"
 
 # Så här söker du efter paket samt får mer information om det.
 brew search git
 brew info git
 
-# När du hittat ditt paket är det bara att installera.
+# När du hittat rätt paket är det bara att installera.
 brew install git</code></pre>
 
-Det är också lätt att bidra till Homebrew, jag har själv skickat in ett par patchar. Eftersom det är öppen källkod behöver man inte heller vänta på att någon annan ska uppdatera ens favoritpaket, det är bara att göra själv! Ta en titt på "Homebrews wiki":http://wiki.github.com/mxcl/homebrew/contributing för mer information.
+Det är också lätt att bidra till Homebrew, jag har själv skickat in ett par patchar. Eftersom det är öppen källkod behöver man inte heller vänta på att någon annan ska uppdatera ens favoritpaket, det är bara att göra själv! Ta en titt på "Homebrews wiki":http://wiki.github.com/mxcl/homebrew/formula-cookbook för mer information.

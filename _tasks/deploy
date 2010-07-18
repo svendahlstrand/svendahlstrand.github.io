@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-cat ./javascripts/original/*.js > javascripts/temp.js && java -jar _tasks/compiler.jar --js javascripts/temp.js --js_output_file javascripts/all.js && rm javascripts/temp.js && java -jar _tasks/yuicompressor.jar -o stylesheets/all.css stylesheets/original.css && ejekyll --no-auto && rsync -avz _site/ www-data@srv1web.fredahl.com:~/apps/svendahlstrand_se/current/public
+cat ./javascripts/original/*.js > javascripts/temp.js && java -jar _tasks/compiler.jar --js javascripts/temp.js --js_output_file javascripts/all.js && rm javascripts/temp.js && java -jar _tasks/yuicompressor.jar -o stylesheets/all.css stylesheets/original.css && jekyll --no-auto && rsync -avz _site/ www-data@srv1web.fredahl.com:~/apps/svendahlstrand_se/current/public

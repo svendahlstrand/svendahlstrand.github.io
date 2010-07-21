@@ -21,7 +21,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 body {
   border-top: solid 10px #333;
   color: #1a1a1a;
-  font-family: Georgia;
+  font-family: Georgia, serif;
   font-size: 16px;
 	line-height: 1.5;
 }
@@ -40,7 +40,7 @@ li {
 #aside {
   color: #4d4d4d;
   float: left;
-  font-family: Helvetica;
+  font-family: Helvetica, sans-serif;
   font-size: 14px;
   text-align: center;
   width: 240px;

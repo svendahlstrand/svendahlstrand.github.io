@@ -23,6 +23,6 @@ $(function() {
 });
 
 function prepare_text(text) {
-  var expression = /http:\/\/((?:www.)?[a-z0-9\/]+\.[a-z0-9\/]+)\s?/;
+  var expression = /http:\/\/((?:www.)?[a-z0-9\/]+\.[a-z0-9\/]+)\s?/i;
   return text.replace(expression, "<a href=\"http://$1\">$&</a>");
 }

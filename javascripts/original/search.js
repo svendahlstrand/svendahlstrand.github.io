@@ -1,18 +1,26 @@
 $(function() {
-  var help_text = "Sök igenom allt innehåll";
-  set_help_text();
+  if (!supportsInputType("search"))
+  {
+    setHelpText($("input[name=q]"));
 
-  $(":text").focus(function() {
-    if($(this).val() == help_text) {
-      $(this).val("").css("color", "");
-    }
-  }).blur(function() {
-    if($(this).val() == "") {
-      set_help_text();
-    }
-  });
+    $("input[placeholder]").focus(function() {
+      if($(this).val() == $(this).attr("placeholder")) {
+        $(this).css("color", "").val("");
+      }
+    }).blur(function() {
+      if($(this).val() == "") {
+        setHelpText(this);
+      }
+    });
+  }
 
-  function set_help_text() {
-    $(":text").val(help_text).css("color", "#ccc");
+  function setHelpText(element) {
+    $(element).css("color", "#ccc").val($(element).attr("placeholder"));
+  }
+
+  function supportsInputType(type) {
+    var input = document.createElement("input");
+    input.setAttribute("type", type);
+    return input.type !== "text";
   }
 });

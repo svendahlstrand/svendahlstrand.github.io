@@ -1,0 +1,70 @@
+---
+layout: post
+title: Installera SiteVision på OS X
+---
+!/images/sitevision.png!
+
+Som utvecklare i "SiteVision":http://www.sitevision.se är det nästan nödvändigt att ha en lokal server som du kan labba fritt med. Här guidar jag dig genom en installation av SiteVision 2.6 på en Mac som kör OS X 10.6 Snow Leopard.
+
+h2. Vad du behöver
+
+* SiteVision-installation (sitevision-2.6.xxxxx.zip)
+* Utvecklarlicens (SiteVision-Utveckling-License-xxxxxxxxx.license.zip)
+
+SiteVision-installation och licens bör du redan ha i din ägo. I annat fall tar du "kontakt med SiteVision":http://sitevision.se/Om-foretaget/Kontakta-oss.html.
+
+h2. Installation
+
+SiteVision kan du lägga var du vill men för enkelhetens skull installerar jag i min hemkatalog _/Users/Sven_ i denna guide. Öppna Terminal.app, ställ dig i den katalog där du lagt installationsfilen och packa upp zip-arkivet.
+
+<pre><code class="shell">$ cd /Users/Sven/Downloads
+$ unzip sitevision-2.6.xxxxx.zip -d /Users/Sven/sitevision</code></pre>
+
+Gå till katalogen där du packade upp SiteVision och gör filerna i bin körbara.
+
+<pre><code class="shell">$ cd /Users/Sven/sitevision
+$ chmod +x bin/*</code></pre>
+
+h2. Konfiguration
+
+Det finns en operativsystemsspecifik konfigurationsfil som SiteVision läser in när servern startar. Den innehåller sökvägar till data- och loggfiler. Skapa upp en konfigurationsfil för Mac genom att kopiera den som finns för Linux.
+
+<pre><code class="shell">$ cp custom/conf/linux.properties custom/conf/mac.properties</code></pre>
+
+Öppna _mac.properties_ i en textredigerare och ändra sökvägarna till din SiteVision-installation.
+
+<pre><code class="shell">$ nano custom/conf/mac.properties</code></pre>
+
+<pre><code class="shell"># Location of /data
+sitevision.data=/Users/Sven/sitevision/data
+
+#Location of /data/log
+sitevision.log=/Users/Sven/sitevision/data/log
+
+#Location of  htmlexport
+sitevision.export.html=/Users/Sven/sitevision/data/export/html</code></pre>
+
+Öppna även _sitevision_linux.conf_ och se till att sökvägen är rätt där.
+
+<pre><code class="shell">$ nano custom/conf/service/sitevision_linux.conf</code></pre>
+
+<pre><code class="shell">wrapper.java.additional.4=-Djava.io.tmpdir=/Users/Sven/sitevision/data/temp</code></pre>
+
+h2. Starta upp SiteVision
+
+Installationen är färdig - nu är det bara att starta upp SiteVision.
+
+<pre><code class="shell">$ cd /Users/Sven/sitevision/bin
+$ sudo ./sitevision console</code></pre>
+
+Om allt fungerar kommer det att rassla till en hel del i loggen. Servern är igång när du ser _Server startup in xxxxx ms_. För att stoppa SiteVision trycker du _Ctrl + c_.
+
+Nu kan du styra din webbläsare mot "http://localhost/editor":http://localhost/editor och logga in som systemanvändare med _system/system_.
+
+h2. Lägg till licens
+
+Att lägga till din utvecklarlicens är lätt:
+
+# Högerklicka på _Serverobjektet_ och välj _Egenskaper > Serverinställningar_.
+# Gå till fliken _Licens_ och ladda upp din fil genom att klicka på plusknappen.
+# Starta om din webbläsare för att installera licensen och se de moduler som du har tillgång till.

@@ -2,10 +2,12 @@
 <html lang="sv">
   <head>
     <meta charset="UTF-8" />
+
     <link rel="stylesheet" href="/stylesheets/all.css" type="text/css" media="screen" />
     <link rel="shortcut icon" href="/images/favicon.ico" />
     <link rel="apple-touch-icon" href="/images/faviphone.png" />
     <link rel="alternate" href="/atom.xml" type="application/atom+xml" title="Sven Dahlstrand Atomflöde" />
+
     <title>
       {% if page.title %}
         {{ page.title }} - Sven Dahlstrand
@@ -13,6 +15,18 @@
         Sven Dahlstrand - Webbutveckling, Mac, Cocktails med mera
       {% endif %}
     </title>
+
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-1941803-6']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
   </head>
   <body>
     <div id="wrapper">
@@ -44,14 +58,5 @@
       </div>
     </div>
     <script type="text/javascript" src="/javascripts/all.js"></script>
-    <script type="text/javascript">
-    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-    </script>
-    <script type="text/javascript">
-    try {
-    var pageTracker = _gat._getTracker("UA-1941803-6");
-    pageTracker._trackPageview();
-    } catch(err) {}</script>
   </body>
 </html>

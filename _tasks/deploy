@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-"`dirname $0`/compile" && rsync -avz _site/ root@109.74.0.69:/var/www/svendahlstrand_se
+"`dirname $0`/compile" && rsync -avz _site/ root@178.79.155.202:/srv/www/svendahlstrand_se

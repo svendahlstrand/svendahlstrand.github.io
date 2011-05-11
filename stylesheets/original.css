@@ -195,3 +195,10 @@ input {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
 }
+
+#sitevision-presentation {
+  background: #eee;
+  color: #444;
+  margin-bottom: 12px;
+  padding: 1px 15px;
+}

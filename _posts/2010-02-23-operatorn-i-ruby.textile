@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ||=-operatorn i Ruby
+title: "||=-operatorn i Ruby"
 ---
 I Ruby, liksom de flesta andra programmeringsspråk, finns det något som kallas _abbreviated assignment_ (förkortad tilldelning). Det är operatorer som <code>+=</code> och <code>-=</code> som låter oss lägga till respektive dra ifrån värdet på en redan existerande variabel.
 
@@ -27,10 +27,17 @@ Så om vi ska översätta den senaste raden kod till "ren svenska": sätt variab
 
 h2. När har jag användning för detta?
 
-Säg till exempel att du ska skriva en metod som räknar ut några värden. Dessa värden vill du lägga till en array och sedan returnera den. Du vill att användaren av din metod ska kunna skicka med en array som ska användas, men om hon inte gör det vill du skapa en ny, tom array.
+Säg till exempel att du har har en metod i en webbapplikation som hämtar den inloggade användaren från databasen. För att undvika onödiga anrop till databasen väljer du att spara undan användaren i en instansvariabel. Koden för detta ser ut så här:
 
-<pre><code class="ruby">def my_function(results = nil)
-  results ||= []
-  # Gör avancerade uträkningar här
-  return results
+<pre><code class="ruby">def current_user
+  return @current_user unless @current_user.nil?
+  @current_user = User.find(session[:user_id])
 end</code></pre>
+
+Det här är ett perfekt användningsområde för ||=-operatorn. Du kan spara en hel rad genom att i stället skriva så här:
+
+<pre><code class="ruby">def current_user
+  @current_user ||= User.find(session[:user_id])
+end</code></pre>
+
+_Uppdaterat 2011-11-24: Tack till Linh som fick mig att uppdatera med ett bättre exempel._

@@ -27,7 +27,7 @@ $ chmod +x bin/*</code></pre>
 
 h2. Konfiguration
 
-Det finns en operativsystemsspecifik konfigurationsfil som SiteVision läser in när servern startar. Den innehåller sökvägar till data- och loggfiler. Skapa upp en konfigurationsfil för Mac genom att kopiera den som finns för Linux.
+Det finns en operativsystemsspecifik konfigurationsfil som SiteVision läser in när servern startar. Den innehåller sökvägar till data- och loggfiler. Skapa upp en konfigurationsfil för Mac genom att kopiera den som finns för GNU/Linux.
 
 <pre><code class="shell">$ cp custom/conf/linux.properties custom/conf/mac.properties</code></pre>
 

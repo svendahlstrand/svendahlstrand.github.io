@@ -10,23 +10,23 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	outline: 0;
-	font-size: 100%;
-	vertical-align: baseline;
-	background: transparent;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
 }
 body {
   border-top: solid 6px #333;
   color: #1a1a1a;
   font-family: Georgia, serif;
   font-size: 16px;
-	line-height: 1.5;
+  line-height: 1.5;
 }
 ol, ul {
-	list-style-position: inside;
+  list-style-position: inside;
 }
 li {
   margin: 0.5em 0;
@@ -196,9 +196,3 @@ input {
   -webkit-border-radius: 5px;
 }
 
-#sitevision-presentation {
-  background: #eee;
-  color: #444;
-  margin-bottom: 12px;
-  padding: 1px 15px;
-}

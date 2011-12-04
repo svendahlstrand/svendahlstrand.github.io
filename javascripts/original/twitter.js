@@ -4,7 +4,7 @@ $(function() {
   var status_text = $.cookie("status_text");
 
   if(!statuses_count || !status_text) {
-    $.getJSON("https://api.twitter.com/1/users/show.json?screen_name=svendahlstrand&include_entities=true", function(data) {
+    $.getJSON("https://api.twitter.com/1/users/show.json?screen_name=svendahlstrand&include_entities=true&callback=?", function(data) {
       $.cookie("statuses_count", data.statuses_count, { path: "/", expires: 0.003473 });
       $.cookie("status_text", twttr.txt.autoLink(data.status.text), { path: "/" });
 

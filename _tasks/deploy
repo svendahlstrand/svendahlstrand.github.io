@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-"`dirname $0`/compile" && rsync -avz _site/ root@178.79.155.202:/srv/www/svendahlstrand_se
+jekyll --no-auto && rsync -avz _site/ 128271_deployer@ssh.binero.se:~/svendahlstrand.se/public_html

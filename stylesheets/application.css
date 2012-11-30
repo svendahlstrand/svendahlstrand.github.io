@@ -74,6 +74,10 @@ article img {
   height: auto;
 }
 
+pre code {
+  overflow: scroll;
+}
+
 strong {
   color: #333;
   font-weight: bold;

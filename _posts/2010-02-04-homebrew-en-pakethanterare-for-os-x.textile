@@ -21,7 +21,7 @@ h2. Hur kommer jag igång?
 
 Det enda du behöver innan vi kör igång är "Xcode":http://developer.apple.com/technologies/xcode.html. Om du har din installationsskiva för OS X kvar kan du installera Xcode därifrån. Homebrew kan, som jag nämnde tidigare, installeras vart som helst men jag föredrar <code>/usr/local</code>. Så här lätt installerar du från terminalen:
 
-<pre><code class="shell"># Ladda hem och installera Homebrew från GitHub.
+<pre><code class="bash"># Ladda hem och installera Homebrew från GitHub.
 ruby -e "$(curl -fsS http://gist.github.com/raw/323731/install_homebrew.rb)"
 
 # Så här söker du efter paket samt får mer information om det.

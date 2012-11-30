@@ -7,4 +7,4 @@ Jag väljer ofta Safari när jag surfar, bland annat för att den känns lite kv
 
 Som tur är finns det en lätt lösning på problemet, det är bara att skriva in följande kommando i terminalen, men jag kan inte fatta varför det inte finns som en inställning istället. Det kanske är jag som letar dåligt?
 
-<pre><code class="shell">defaults write com.apple.Safari TargetedClicksCreateTabs -bool true</code></pre>
+<pre><code class="bash">defaults write com.apple.Safari TargetedClicksCreateTabs -bool true</code></pre>

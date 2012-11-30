@@ -2,61 +2,20 @@
 <html lang="sv">
   <head>
     <meta charset="UTF-8" />
-
-    <link rel="stylesheet" href="/stylesheets/all.css" type="text/css" media="screen" />
-    <link rel="shortcut icon" href="/images/favicon.ico" />
-    <link rel="apple-touch-icon" href="/images/faviphone.png" />
-    <link rel="alternate" href="/atom.xml" type="application/atom+xml" title="Sven Dahlstrand Atomflöde" />
-
+    <meta name="viewport" id="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=10.0,initial-scale=1.0" />
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/application.css">
     <title>
       {% if page.title %}
-        {{ page.title }} - Sven Dahlstrand
+        {{ page.title }} av Sven Dahlstrand
       {% else %}
-        Sven Dahlstrand - Webbutveckling, Mac, Cocktails med mera
+        Sven Dahlstrand är en problemlösare, utvecklare och föreläsare.
       {% endif %}
     </title>
-
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-1941803-6']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
   </head>
   <body>
     <div id="wrapper">
-      <div id="aside">
-        <h1>
-          <a href="/"><img src="/images/sven_dahlstrand.png" alt="Sven Dahlstrand" width="198" height="145" /></a>
-        </h1>
-        <p>
-          Webbutveckling, Mac, Cocktails med mera
-        </p>
-        <form action="http://www.google.com/cse" id="cse-search-box">
-          <p>
-            <input type="hidden" name="cx" value="011789221822335299551:00-vjhkgsmy" />
-            <input type="hidden" name="ie" value="UTF-8" />
-            <input type="search" placeholder="Sök igenom allt innehåll" name="q" size="31" />
-          </p>
-        </form>
-        <p>
-          <a href="/atom.xml"><img src="/images/prenumerera.png" alt="Prenumerera" /></a>
-        </p>
-        <ul>
-          <li><img src="/images/sven.png" alt="" width="32" height="32" /> Artiklar <span>{{ site.posts.size }}</span></li>
-          <li><a href="http://github.com/svendahlstrand"><img src="/images/octocat.png" alt="" width="32" height="32" /> GitHub</a> <span>12</span></li>
-          <li><a href="http://twitter.com/svendahlstrand"><img src="/images/bird.png" alt="" width="32" height="32" /> Twitter</a> <span id="statuses_count">?</span></li>
-        </ul>
-      </div>
-      <div id="content">
-        {{ content }}
-      </div>
+      {{ content }}
     </div>
-    <script type="text/javascript" src="/javascripts/all.js"></script>
   </body>
 </html>

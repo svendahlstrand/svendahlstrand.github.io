@@ -1,2 +1,0 @@
-#!/usr/bin/env bash
-cat ./javascripts/original/*.js > javascripts/temp.js && java -jar _tasks/compiler.jar --js javascripts/temp.js --js_output_file javascripts/all.js && rm javascripts/temp.js && java -jar _tasks/yuicompressor.jar -o stylesheets/all.css stylesheets/original.css && jekyll --no-auto

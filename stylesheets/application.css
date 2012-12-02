@@ -1,8 +1,9 @@
 body {
   background: #fff;
-  color: #555;
+  color: #444;
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;;
 
+  -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
 }
 
@@ -29,16 +30,19 @@ header img {
 }
 
 header p {
+  font-size: 0.875em;
   margin: 0;
 }
 
 header h2 {
+  font-size: 1em;
+  font-weight: 600;
   margin: 0;
   padding: 0.2em 0 0.1em 0;
 }
 
 header.homepage {
-  padding: 1.2em 0 2em 10em;
+  padding: 0.2em 0 2em 10em;
   margin-top: 3em;
 }
 
@@ -59,14 +63,12 @@ section {
 }
 
 article {
-  max-width: 70%;
+  max-width: 36.25em;
   margin: 0 auto;
 }
 
 article time {
-  color: #777;
-  position: absolute;
-  right: 0;
+  color: #999;
 }
 
 article img {
@@ -75,35 +77,47 @@ article img {
 }
 
 pre code {
+  font-family: Monaco, Consolas, monospace;
+  font-size: 0.875em;
   overflow: scroll;
 }
 
 strong {
-  color: #333;
+  color: #423f37;
   font-weight: bold;
 }
 
 h1 {
-  color: #333;
-  font-size: 1.375em;
-  font-weight: bold;
+  color: #423f37;
+  font-size: 1.875em;
+  font-weight: 600;
 }
 
 h2 {
-  color: #333;
-  font-size: 1em;
-  font-weight: bold;
+  color: #423f37;
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+h3 {
+  color: #423f37;
+  font-size: 1.25em;
+  font-weight: normal;
 }
 
 p, ul {
-  font-size: 0.875em;
+  font-size: 1em;
   margin: 1em 0;
 }
 
 a {
-  color: #477B96;
+  color: #06a;
 }
 
 a:hover {
   text-decoration: none;
+}
+
+a:visited {
+  color: #607890;
 }

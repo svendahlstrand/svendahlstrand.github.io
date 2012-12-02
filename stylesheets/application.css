@@ -14,7 +14,7 @@ body {
 }
 
 header {
-  border-bottom: 2px solid #e1e1e1;
+  border-bottom: 2px solid #ddd;
   position: relative;
   padding-left: 4em;
   min-height: 3.5em;

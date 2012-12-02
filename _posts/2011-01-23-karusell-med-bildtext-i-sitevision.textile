@@ -5,7 +5,7 @@ title: Karusell med bildtext i SiteVision
 
 En fortsättning på föregående avsnitt. Här bygger jag ut funktionaliteten så att en redaktör lätt kan lägga till en bildtext för bilderna i karusellen.
 
-<iframe src="http://player.vimeo.com/video/19096350?title=0&amp;byline=0&amp;portrait=0" width="681" height="383" frameborder="0"></iframe>
+<div class="video-wrapper"><iframe src="http://player.vimeo.com/video/19096350?title=0&amp;byline=0&amp;portrait=0" width="681" height="383" frameborder="0"></iframe></div>
 
 h2. Sitter du i SiteVision 2.6.2_04 eller senare?
 

@@ -17,6 +17,7 @@ h1, h2, h3 {
 h1 {
   font-size: 1.875em;
   font-weight: 600;
+  margin-bottom: 0;
 }
 
 h2 {
@@ -102,6 +103,10 @@ header.compact p {
 article {
   max-width: 36.25em;
   margin: 0 auto;
+}
+
+article h1 + p {
+  margin: 0 0 1.5em 0;
 }
 
 article time {

@@ -44,14 +44,11 @@ strong {
 
 a {
   color: #06a;
-}
-
-a:hover {
   text-decoration: none;
 }
 
-a:visited {
-  color: #607890;
+a:hover {
+  text-decoration: underline;
 }
 
 /* Layout */

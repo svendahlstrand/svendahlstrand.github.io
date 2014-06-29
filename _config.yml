@@ -1,4 +1,6 @@
-auto: true
 permalink: /:title
-exclude: Gemfile, Gemfile.lock
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
 markdown: kramdown

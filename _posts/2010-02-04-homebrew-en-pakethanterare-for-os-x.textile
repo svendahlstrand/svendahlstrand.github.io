@@ -21,7 +21,8 @@ h2. Hur kommer jag igång?
 
 Det enda du behöver innan vi kör igång är "Xcode":http://developer.apple.com/technologies/xcode.html. Om du har din installationsskiva för OS X kvar kan du installera Xcode därifrån. Homebrew kan, som jag nämnde tidigare, installeras vart som helst men jag föredrar <code>/usr/local</code>. Så här lätt installerar du från terminalen:
 
-<pre><code class="bash"># Ladda hem och installera Homebrew från GitHub.
+{% highlight bash %}
+# Ladda hem och installera Homebrew från GitHub.
 ruby -e "$(curl -fsS http://gist.github.com/raw/323731/install_homebrew.rb)"
 
 # Så här söker du efter paket samt får mer information om det.
@@ -29,6 +30,7 @@ brew search git
 brew info git
 
 # När du hittat rätt paket är det bara att installera.
-brew install git</code></pre>
+brew install git
+{% endhighlight %}
 
 Det är också lätt att bidra till Homebrew, jag har själv skickat in ett par patchar. Eftersom det är öppen källkod behöver man inte heller vänta på att någon annan ska uppdatera ens favoritpaket, det är bara att göra själv! Ta en titt på "Homebrews wiki":http://wiki.github.com/mxcl/homebrew/formula-cookbook för mer information.

@@ -12,12 +12,12 @@ Tänk dig en *mycket* enkel webbapplikation som visar besökarens IP-adress, det
 tretton sådanna på dussinet. I Sinatra, ett microramverk för
 Ruby, kan det se ut så här:
 
-<pre><code class="ruby">require 'sinatra'
+{% highlight ruby %}
+require 'sinatra'
 
 get '/' do
   "Din IP-adress: #{request.ip}"
 end
-</code></pre>
+{% endhighlight %}
 
 Kan det bli mycket sexigare? Om du är nyfiken så tycker jag att du ska kika mer på [Sinatra för Ruby](http://www.sinatrarb.com), [Slim för PHP](http://www.slimframework.com), [Spark för Java](http://www.sparkjava.com) eller [Flask för Python](http://flask.pocoo.org).
-

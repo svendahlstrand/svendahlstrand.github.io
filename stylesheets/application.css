@@ -32,6 +32,10 @@ p, ul {
   margin: 1em 0;
 }
 
+pre {
+  padding: 0.5em;
+}
+
 pre code {
   font-family: Monaco, Consolas, monospace;
   font-size: 0.875em;

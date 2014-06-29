@@ -17,45 +17,57 @@ h2. Installation
 
 SiteVision kan du lägga var du vill men för enkelhetens skull installerar jag i min hemkatalog _/Users/Sven_ i denna guide. Öppna Terminal.app, ställ dig i den katalog där du lagt installationsfilen och packa upp zip-arkivet.
 
-<pre><code class="bash">$ cd /Users/Sven/Downloads
-$ unzip sitevision-2.6.xxxxx.zip -d /Users/Sven/sitevision</code></pre>
+{% highlight bash %}
+$ cd /Users/Sven/Downloads
+$ unzip sitevision-2.6.xxxxx.zip -d /Users/Sven/sitevision
+{% endhighlight %}
 
 Gå till katalogen där du packade upp SiteVision och gör filerna i bin körbara.
 
-<pre><code class="bash">$ cd /Users/Sven/sitevision
-$ chmod +x bin/*</code></pre>
+{% highlight bash %}
+$ cd /Users/Sven/sitevision
+$ chmod +x bin/*
+{% endhighlight %}
 
 h2. Konfiguration
 
 Det finns en operativsystemsspecifik konfigurationsfil som SiteVision läser in när servern startar. Den innehåller sökvägar till data- och loggfiler. Skapa upp en konfigurationsfil för Mac genom att kopiera den som finns för GNU/Linux.
 
-<pre><code class="bash">$ cp custom/conf/linux.properties custom/conf/mac.properties</code></pre>
+{% highlight bash %}
+$ cp custom/conf/linux.properties custom/conf/mac.properties
+{% endhighlight %}
 
 Öppna _mac.properties_ i en textredigerare och ändra sökvägarna till din SiteVision-installation.
 
-<pre><code class="bash">$ nano custom/conf/mac.properties</code></pre>
+{% highlight bash %}
+$ nano custom/conf/mac.properties
 
-<pre><code class="bash"># Location of /data
+# Location of /data
 sitevision.data=/Users/Sven/sitevision/data
 
 #Location of /data/log
 sitevision.log=/Users/Sven/sitevision/data/log
 
 #Location of  htmlexport
-sitevision.export.html=/Users/Sven/sitevision/data/export/html</code></pre>
+sitevision.export.html=/Users/Sven/sitevision/data/export/html
+{% endhighlight %}
 
 Öppna även _sitevision_linux.conf_ och se till att sökvägen är rätt där.
 
-<pre><code class="bash">$ nano custom/conf/service/sitevision_linux.conf</code></pre>
+{% highlight bash %}
+$ nano custom/conf/service/sitevision_linux.conf
 
-<pre><code class="bash">wrapper.java.additional.4=-Djava.io.tmpdir=/Users/Sven/sitevision/data/temp</code></pre>
+wrapper.java.additional.4=-Djava.io.tmpdir=/Users/Sven/sitevision/data/temp
+{% endhighlight %}
 
 h2. Starta upp SiteVision
 
 Installationen är färdig - nu är det bara att starta upp SiteVision.
 
-<pre><code class="bash">$ cd /Users/Sven/sitevision/bin
-$ sudo ./sitevision console</code></pre>
+{% highlight bash %}
+$ cd /Users/Sven/sitevision/bin
+$ sudo ./sitevision console
+{% endhighlight %}
 
 Om allt fungerar kommer det att rassla till en hel del i loggen. Servern är igång när du ser _Server startup in xxxxx ms_. För att stoppa SiteVision trycker du _Ctrl + c_.
 

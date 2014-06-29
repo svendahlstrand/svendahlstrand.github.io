@@ -4,3 +4,4 @@ exclude:
   - Gemfile
   - Gemfile.lock
 markdown: kramdown
+timezone: Europe/Stockholm

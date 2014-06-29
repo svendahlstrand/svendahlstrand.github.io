@@ -1,2 +1,0 @@
-#!/usr/bin/env bash
-jekyll --no-auto && rsync -avz _site/ 128271_deployer@ssh.binero.se:~/svendahlstrand.se/public_html

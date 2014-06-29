@@ -31,7 +31,7 @@ Det verkar inte så, efter en ny tilldelning är <code>@count</code> fortfarande
 
 Så om vi ska översätta den senaste raden kod till "ren svenska": sätt variabeln <code>@count</code> till 32 om <code>@count</code> inte redan har något värde.
 
-h2. När har jag användning för detta?
+## När har jag användning för detta?
 
 Säg till exempel att du har har en metod i en webbapplikation som hämtar den inloggade användaren från databasen. För att undvika onödiga anrop till databasen väljer du att spara undan användaren i en instansvariabel. Koden för detta ser ut så här:
 

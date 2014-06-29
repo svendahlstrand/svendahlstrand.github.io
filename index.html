@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <header>
   <img src="http://2.gravatar.com/avatar/9219f7f372e5b1444155261c9fb14617?size=420" alt="" />
   <h1>Hej! Jag heter Sven Dahlstrand och är en problemlösare, utvecklare och föreläsare.</h1>
@@ -16,11 +17,9 @@ layout: default
   <div class="video-wrapper"><iframe width="380" height="214" src="//www.youtube-nocookie.com/embed/MiVikzzxBKk?rel=0" allowfullscreen></iframe></div>
   <p><a href="http://www.sitevisiondagarna.se/vadhande2013/pass2013/smartalosningarisitevision.5.5d0f195113e5ac65ca6198.html"><em>Smarta lösningar i SiteVision</em></a><br />SiteVisiondagarna, Örebro</p>
   <ul>
-    <li><a href="https://speakerdeck.com/svendahlstrand/46elks"><em>46 Elks</em></a> Webbköping, Jönköping</li>
-    <li><a href="https://speakerdeck.com/svendahlstrand/internet-of-things-1"><em>Internet of Things</em></a> Mobilitet och affärer, Jönköping</li>
-    <li><a href="http://www.sitevisiondagarna.se/program/pass2012/responsivedesignochsitevision.5.2b7cfe311379dcd2bf51c3e.html"><em>Responsiv webbdesign</em></a> SiteVisiondagarna, Örebro</li>
-    <li><a href="https://speakerdeck.com/svendahlstrand/less-is-more"><em>Less is more</em></a> Webbköping, Jönköping</li>
-    <li><a href="https://speakerdeck.com/svendahlstrand/att-testa-dina-sitevision-portlets"><em>Att testa dina SiteVision-portlets</em></a> SiteVisiondagarna, Örebro</li>
+    {% for talk in site.data.talks %}
+      <li><a href="{{ talk.url }}"><em>{{ talk.title }}</em></a> {{ talk.location }}</li>
+    {% endfor %}
   </ul>
 </section>
 <section>

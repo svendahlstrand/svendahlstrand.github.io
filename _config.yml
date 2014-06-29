@@ -3,5 +3,5 @@ exclude:
   - CNAME
   - Gemfile
   - Gemfile.lock
-markdown: kramdown
+markdown: redcarpet
 timezone: Europe/Stockholm

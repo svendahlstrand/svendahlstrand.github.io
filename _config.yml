@@ -5,3 +5,5 @@ exclude:
   - Gemfile.lock
 markdown: redcarpet
 timezone: Europe/Stockholm
+gems:
+  - jekyll-sitemap

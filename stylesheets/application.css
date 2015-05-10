@@ -1,7 +1,7 @@
 body {
   background: #fff;
   color: #333;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
@@ -11,13 +11,13 @@ body {
 
 h1, h2, h3 {
   color: #423f37;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 h1 {
   font-size: 1.875em;
-  font-weight: 600;
   margin-bottom: 0;
+  font-weight: 500;
 }
 
 h2 {
@@ -38,13 +38,13 @@ pre {
 }
 
 pre code {
-  font-family: Monaco, Consolas, monospace;
+  font-family: monaco, Consolas, 'Lucida Console', monospace;
   font-size: 0.875em;
 }
 
 strong {
   color: #423f37;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 a {
@@ -93,7 +93,7 @@ header.compact img {
 
 header.compact h2 {
   font-size: 1em;
-  font-weight: 600;
+  font-weight: 500;
   margin: 0;
   padding: 0.2em 0 0 0;
 }

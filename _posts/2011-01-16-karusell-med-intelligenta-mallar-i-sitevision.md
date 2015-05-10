@@ -5,7 +5,7 @@ title: Karusell med intelligenta mallar i SiteVision
 
 Gör dina redaktörer glada med intelligenta mallar. Lär dig hur du gör grymma karuseller (bildspel) med hjälp av fria JavaScript-bibliotek och metadata i SiteVision.
 
-<div class="video-wrapper"><iframe src="http://player.vimeo.com/video/18849293?title=0&amp;byline=0&amp;portrait=0" width="681" height="383" frameborder="0"></iframe></div>
+<div class="video-wrapper"><iframe src="//player.vimeo.com/video/18849293?title=0&amp;byline=0&amp;portrait=0" width="681" height="383" frameborder="0"></iframe></div>
 
 ## Erratum
 

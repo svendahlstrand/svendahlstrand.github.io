@@ -5,7 +5,7 @@ title: Slumpa fram artiklar i SiteVision
 
 Lär dig hur du med hjälp av Skriptmodulen i SiteVision slumpar fram artiklar ur ett arkiv.
 
-<div class="video-wrapper"><iframe src="http://player.vimeo.com/video/18595309?title=0&amp;byline=0&amp;portrait=0" width="681" height="383" frameborder="0"></iframe></div>
+<div class="video-wrapper"><iframe src="//player.vimeo.com/video/18595309?title=0&amp;byline=0&amp;portrait=0" width="681" height="383" frameborder="0"></iframe></div>
 
 ## Länkar
 

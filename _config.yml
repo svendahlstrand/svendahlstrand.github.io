@@ -3,6 +3,7 @@ exclude:
   - CNAME
   - Gemfile
   - Gemfile.lock
+  - vendor
 markdown: redcarpet
 timezone: Europe/Stockholm
 gems:

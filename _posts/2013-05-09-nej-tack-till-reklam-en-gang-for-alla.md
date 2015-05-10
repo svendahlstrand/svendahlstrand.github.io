@@ -37,6 +37,6 @@ Banners och annan reklam på webbsidor kan du undvika med webbläsartillägget [
 
 [1]: http://www.google.se/#q=designa%20egen%20skylt
 [2]: http://www.reklamfritt.se
-[3]: http://www.nix.nu/sp%C3%A4rra-privata-telefonnummer.aspx
+[3]: http://nixtelefon.org
 [4]: http://mail.google.com
 [5]: http://adblockplus.org

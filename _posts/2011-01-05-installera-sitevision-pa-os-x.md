@@ -71,7 +71,7 @@ $ sudo ./sitevision console
 
 Om allt fungerar kommer det att rassla till en hel del i loggen. Servern är igång när du ser _Server startup in xxxxx ms_. För att stoppa SiteVision trycker du _Ctrl + c_.
 
-Nu kan du styra din webbläsare mot [http://localhost/editor] [3] och logga in som systemanvändare med _system/system_.
+Nu kan du styra din webbläsare mot _http://localhost/editor_ och logga in som systemanvändare med _system/system_.
 
 ## Lägg till licens
 
@@ -83,4 +83,3 @@ Att lägga till din utvecklarlicens är lätt:
 
 [1]: http://www.sitevision.se
 [2]: http://sitevision.se/Om-foretaget/Kontakta-oss.html
-[3]: http://localhost/editor

@@ -5,6 +5,8 @@ exclude:
   - Gemfile.lock
   - vendor
 markdown: redcarpet
+redcarpet:
+  extensions: ['autolink']
 timezone: Europe/Stockholm
 gems:
   - jekyll-sitemap

@@ -15,7 +15,7 @@ Kanske har du en ”Nej tack till reklam”-skylt på brevlådan eller dörren? 
 
 Se till att du tackar nej även till gratistidningar på din skylt. Det finns flera tjänster som låter dig [designa en egen] [1], det har jag gjort.
 
-Hur får du då bukt med den adresserade direktreklamen? Det är busenkelt tack vare den smarta tjänsten [Reklamfritt.se] [2]. Gå bara dit och registrera dig.
+Hur får du då bukt med den adresserade direktreklamen? Det är busenkelt tack vare den smarta tjänsten _reklamfritt.se_. Gå bara dit och registrera dig.
 
 ## Hem- och mobiltelefon
 

@@ -9,8 +9,13 @@ layout: default
 </header>
 <section id="talks">
   <h2>Senaste föreläsningar</h2>
-  <div class="video-wrapper"><iframe width="380" height="214" src="//www.youtube-nocookie.com/embed/MiVikzzxBKk?rel=0" allowfullscreen></iframe></div>
-  <p><a href="http://www.sitevisiondagarna.se/vadhande2013/pass2013/smartalosningarisitevision.5.5d0f195113e5ac65ca6198.html"><em>Smarta lösningar i SiteVision</em></a><br />SiteVisiondagarna, Örebro</p>
+  <p>
+    <a href="http://www.sitevisiondagarna.se/vadhande2013/pass2013/smartalosningarisitevision.5.5d0f195113e5ac65ca6198.html">
+      <img src="/images/sven-pa-sitevisiondagarna.jpg" width="380" alt="" />
+      <em>Smarta lösningar i SiteVision</em>
+    </a>
+    <br />SiteVisiondagarna, Örebro
+  </p>
   <ul>
     {% for talk in site.data.talks %}
       <li><a href="{{ talk.url }}"><em>{{ talk.title }}</em></a> {{ talk.location }}</li>

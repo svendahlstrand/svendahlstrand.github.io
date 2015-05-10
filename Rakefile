@@ -1,6 +1,6 @@
 require 'html/proofer'
 
-HREFS_TO_IGNORE = [/.+svendahlstrand\.github\.io.+/]
+HREFS_TO_IGNORE = [/.+svendahlstrand\.github\.io.+/, /.+localhost.+/]
 
 task :test do
   sh 'bundle exec jekyll build'

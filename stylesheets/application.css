@@ -115,6 +115,20 @@ article time {
   color: #999;
 }
 
+.collection ul  {
+  list-style-type:none;
+  padding: 0;
+}
+
+.collection li  {
+  padding: .3em 0;
+  border-bottom: solid 1px #ddd;
+}
+
+.collection li:last-child  {
+  border-bottom: none;
+}
+
 /* Responsive */
 
 /* Layout */

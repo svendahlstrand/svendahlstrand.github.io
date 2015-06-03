@@ -21,5 +21,5 @@ Lägg limeklyftorna i ett lågt glas och strö över socker. Muddla för att pre
 
 [1]: http://en.wikipedia.org/wiki/Caipirinha
 [2]: http://en.wikipedia.org/wiki/Cachaça
-[3]: http://systembolaget.se/SokDrycker/Produkt?VaruNr=511
-[4]: http://www.amazon.com/Essential-Cocktail-Mixing-Perfect-Drinks/dp/0307405737
+[3]: http://www.systembolaget.se/dryck/sprit/havana-club-51101
+[4]: http://www.prisjakt.nu/bok.php?p=1059838

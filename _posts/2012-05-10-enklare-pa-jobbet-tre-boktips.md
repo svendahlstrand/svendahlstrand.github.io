@@ -16,6 +16,6 @@ Nästa bok som ligger i att läsa-högen (om man nu kan räkna iPad som en hög)
 Jag ser till att fira varje litet framsteg!
 
 [1]: http://37signals.com/rework
-[2]: https://gettingthingsdone.com/store/product.php?productid=16175&cat=3&page
+[2]: http://amzn.com/B00UMD5JJC
 [3]: http://focusmanifesto.com
 [4]: http://modernmeetingstandard.com/the-book

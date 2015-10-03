@@ -10,10 +10,6 @@ redcarpet:
 timezone: Europe/Stockholm
 gems:
   - jekyll-sitemap
-collections:
-  wiki:
-    output: true
-    permalink: /wiki/:path/
 defaults:
   - scope:
       path: ""

@@ -125,8 +125,13 @@ article time {
   border-bottom: solid 1px #ddd;
 }
 
-.collection li:last-child  {
+.collection li:last-child {
   border-bottom: none;
+}
+
+.collection li.hero {
+  border-bottom: none;
+  margin-bottom: 0.5em;
 }
 
 /* Responsive */
@@ -146,12 +151,12 @@ article time {
   }
 
   section {
-    float: right;
+    float: left;
     width: 48%;
   }
 
-  section:first-of-type {
-    float: left;
+  #articles {
+    float: right;
   }
 }
 

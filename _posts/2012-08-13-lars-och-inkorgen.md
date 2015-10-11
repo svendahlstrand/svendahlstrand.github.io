@@ -5,6 +5,8 @@ title: Lars och inkorgen
 
 ![](/images/lars.jpg)
 
+Illustration: [Sanna Lund][1]
+
 Det här är Lars. Lars älskar brev. Han tycker om att öppna brev, läsa brev och skicka brev.
 
 Lars har en inkorg där alla brev hamnar. Var femte minut tittar han i inkorgen. Kanske har han fått något nytt?
@@ -31,3 +33,5 @@ För att få kontroll över min inkorg har jag satt upp några enkla regler:
 * Sträva efter en tom inkorg.
 
 Med dessa regler blir jag mindre som Lars. Jag får kontroll över inkorgen och mer tid över till annat. Hur hanterar du din e-post?
+
+[1]: http://sannalund.se

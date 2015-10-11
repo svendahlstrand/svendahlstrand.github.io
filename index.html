@@ -9,15 +9,12 @@ layout: default
 </header>
 <section class="collection">
   <h2>Aktuella projekt</h2>
-  <p>
-
-  </p>
   <ul>
     {% for project in site.tags.project %}
       {% if forloop.first %}
         <li class="hero">
           <a href="{{ project.url }}">
-            <img src="/images/hero.jpg" alt="" width="384" height="213" />
+            <img src="/images/hero.jpg" alt="" width="384" height="215" />
             <em>{{ project.title }}</em>
           </a>
           <br />{{ project.summary }}

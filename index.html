@@ -44,16 +44,21 @@ layout: default
 
 <section class="collection">
   <h2>Senaste föreläsningar</h2>
-  <p>
-    <a href="http://www.sitevisiondagarna.se/vadhande2013/pass2013/smartalosningarisitevision.5.5d0f195113e5ac65ca6198.html">
-      <img src="/images/sven-pa-sitevisiondagarna.jpg" alt="" width="384" height="213" />
-      <em>Smarta lösningar i SiteVision</em>
-    </a>
-    <br />SiteVisiondagarna, Örebro
-  </p>
   <ul>
     {% for talk in site.data.talks %}
-      <li><a href="{{ talk.url }}"><em>{{ talk.title }}</em></a> {{ talk.location }}</li>
+      {% if forloop.first %}
+        <li class="hero">
+          <a href="{{ talk.url }}">
+            <img src="/images/hero-talk.jpg" alt="" width="384" height="213" />
+            <em>{{ talk.title }}</em>
+          </a>
+          <br />{{ talk.location }}
+        </li>
+      {% else %}
+        <li>
+          <a href="{{ talk.url }}"><em>{{ talk.title }}</em></a> {{ talk.location }}
+        </li>
+      {% endif %}
     {% endfor %}
   </ul>
 </section>

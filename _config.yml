@@ -3,6 +3,7 @@ exclude:
   - CNAME
   - Gemfile
   - Gemfile.lock
+  - Rakefile
   - vendor
 markdown: redcarpet
 redcarpet:

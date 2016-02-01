@@ -5,15 +5,8 @@ exclude:
   - Gemfile.lock
   - Rakefile
   - vendor
-markdown: redcarpet
-redcarpet:
-  extensions: ['autolink']
+kramdown:
+  smart_quotes: ["apos", "apos", "quot", "quot"]
 timezone: Europe/Stockholm
 gems:
   - jekyll-sitemap
-defaults:
-  - scope:
-      path: ""
-      type: wiki
-    values:
-      layout: wiki

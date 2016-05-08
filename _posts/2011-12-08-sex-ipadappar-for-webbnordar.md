@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sex iPadappar för webbnördar
+tags: archived
 ---
 
 iPaden är inte bara en grym webbsurf-sociala-medier-spel-maskin. Det går faktiskt att få en del arbete gjort också! Här är ett urval av de appar jag använder:

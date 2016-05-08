@@ -32,7 +32,7 @@ layout: default
   <h2>Artiklar och guider</h2>
   <ul>
     {% for post in site.posts %}
-      {% unless post.tags contains 'project' %}
+      {% unless post.tags contains 'project' or post.tags contains 'archived' %}
         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endunless %}
     {% endfor %}

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Inspiration
+tags: archived
 ---
 
 ![Dribble](/images/dribble.jpg)

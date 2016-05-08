@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hur du blir snabbare i Terminal.app (Bash)
+tags: archived
 ---
 Jag spenderar mycket tid i [Bash] [1] som råkar vara den kommandotolk som är förvald i Mac&nbsp;OS&nbsp;X:s Terminal.app. Det blir många kommandon på en dag och tyvärr är det mycket repetitivt arbete. Att skriva ett längre kommando mer än en gång känns dumt. _Tab completion_ är en funktion som de flesta terminal-användare känner till; att Bash hjälper dig avsluta sökvägar eller kommandon när du trycker på tabb. Min favorit är _history_.
 

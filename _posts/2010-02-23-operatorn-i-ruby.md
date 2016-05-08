@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "||=-operatorn i Ruby"
+tags: archived
 ---
 I Ruby, liksom de flesta andra programmeringsspråk, finns det något som kallas _abbreviated assignment_ (förkortad tilldelning). Det är operatorer som <code>+=</code> och <code>-=</code> som låter oss lägga till respektive dra ifrån värdet på en redan existerande variabel.
 

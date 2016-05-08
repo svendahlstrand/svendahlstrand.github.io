@@ -1,6 +1,7 @@
 ---
 layout: post
 title: LiveReload – aldrig mer F5
+tags: archived
 ---
 
 Som webbutvecklare har du säkert suttit och tryck på F5 eller cmd + R i webbläsaren för att se resultatet av en CSS-justering. Förmodligen har du gjort det mer än en gång. Meningslös repetition är av ondo men det finns en lösning: [LiveReload](http://livereload.com)!

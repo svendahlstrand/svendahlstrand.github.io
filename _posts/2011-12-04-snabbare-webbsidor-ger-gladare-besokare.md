@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Snabbare webbsidor ger gladare besökare
+tags: archived
 ---
 
 I och med att bredband blivit allt vanligare har vi webbutvecklare och webbdesigners slappnat av lite när det gäller att tänka på optimering av webbplatsers laddtider. Alla har ju ändå en snabb, fast lina - eller? En webbsida med resurser på ett par megabyte är inte ovanligt idag.

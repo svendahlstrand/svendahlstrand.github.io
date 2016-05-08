@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Homebrew - En pakethanterare för OS X
+tags: archived
 ---
 
 Som webbutvecklare drar jag nytta av mycket fri mjukvara som till exempel [git] [1], [imagemagick] [2] och [wine] [3]. De flesta *nix-smaker har pakethanterare som underlättar installationen. BSD har ports, Debian har dpkg och många andra GNU/Linux-distributioner kör RPM till exempel. På OS X har det länge varit antingen [Fink] [4] eller [MacPorts] [5] som gäller.

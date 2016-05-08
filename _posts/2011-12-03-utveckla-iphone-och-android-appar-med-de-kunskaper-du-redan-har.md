@@ -12,7 +12,7 @@ Det låter för bra för att vara sant, finns det någon hake? Det finns ett par
 
 Fortfarande intresserad? Här kommer du igång:
 
-* [Kom igång-guide för PhoneGap](http://phonegap.com/start).
+* [Kom igång-guide för PhoneGap](http://phonegap.com/getstarted/).
 * [jQuery Mobile](http://jquerymobile.com) och [Sencha Touch](http://www.sencha.com/products/touch/): två ramverk för att bygga gränssnitt.
 * [Titanium Mobile](http://www.appcelerator.com): alternativ till PhoneGap som låter dig bygga nativegränssnitt med JavaScript.
 * [Toura Mulberry](https://github.com/rmurphey/mulberry): ett ramverk och en samling kommandoradsverktyg ovanpå PhoneGap (tipstack [@Urre](http://urre.me))

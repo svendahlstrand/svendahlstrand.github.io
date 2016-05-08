@@ -17,4 +17,4 @@ Det går bra att promenera, cykla och åka kollektivt men visst finns det situat
 
 Än så länge lever vi ett bilfritt liv och njuter av att röra på oss mer, ha en sak mindre att tänka på och mer pengar över till roliga saker.
 
-[1]: http://www.swedbank.se/privat/mer-om-privatekonomi/vardagsekonomi/bilens-kostnader/index.htm
+[1]: https://www.swedbank.se/privat/privatlan-och-krediter/lana-till-bil/bilens-kostnader/index.htm

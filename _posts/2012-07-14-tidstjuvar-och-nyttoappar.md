@@ -34,6 +34,6 @@ Så fort jag kommer på något kan jag skriva upp det i appen och Sanna ser det 
 Vilka är dina nyttoappar?
 
 [1]: http://sannalund.se
-[2]: http://www.lansforsakringar.se/privat/att-vara-kund/digitala-tjanster-telefonbank/appar/
+[2]: http://www.lansforsakringar.se/jonkoping/privat/att-vara-kund/digitala-tjanster-telefonbank/app/
 [3]: http://calendar.google.com
 [4]: https://www.rememberthemilk.com

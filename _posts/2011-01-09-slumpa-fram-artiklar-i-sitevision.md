@@ -10,11 +10,9 @@ Lär dig hur du med hjälp av Skriptmodulen i SiteVision slumpar fram artiklar u
 ## Länkar
 
 * [Reservoir Sampling - Taming Uncertainty - Site Home - MSDN Blogs] [1]
-* [Gregable.: Reservoir Sampling] [2]
-* [Choosing Random Elements - Adventures in Learning] [3]
-* [Källkoden för det här avsnittet] [4]
+* [Choosing Random Elements - Adventures in Learning] [2]
+* [Källkoden för det här avsnittet] [3]
 
-[1]: http://blogs.msdn.com/b/spt/archive/2008/02/05/reservoir-sampling.aspx
-[2]: http://gregable.com/2007/10/reservoir-sampling.html
-[3]: http://propersubset.com/2010/04/choosing-random-elements.html
-[4]: https://github.com/svendahlstrand/sitevision-episodes/tree/master/001-random-articles
+[1]: https://blogs.msdn.microsoft.com/spt/2008/02/05/reservoir-sampling/
+[2]: http://propersubset.com/2010/04/choosing-random-elements.html
+[3]: https://github.com/svendahlstrand/sitevision-episodes/tree/master/001-random-articles

@@ -1,61 +1,77 @@
 ---
 layout: default
+title: Sven Dahlstrand
 ---
 
 <header>
-  <img src="/images/sven-gravatar.jpg" alt="" width="128" height="128" />
-  <h1>Hej! Jag heter Sven Dahlstrand och är en problemlösare, utvecklare och föreläsare.</h1>
-  <p>Jag älskar webben och att bygga saker som människor har nytta av. Jag gillar att lära mig nya saker och dela med mig av mina kunskaper.</p>
+  <img src="/images/sven.png" alt="" width="70" height="88" />
+  <h1>Hej! Jag heter Sven<span class="extra-copy"> Dahlstrand</span>.</h1>
+  <p>Redan som åttaåring började jag tala om för datorer och maskiner vad de skulle göra. Det gör jag fortfarande.</p>
 </header>
-<section class="collection">
-  <h2>Projekt</h2>
-  <ul>
-    {% for project in site.tags.project %}
-      {% if forloop.first %}
-        <li class="hero">
-          <a href="{{ project.url }}">
-            <img src="/images/hero.jpg" alt="" width="384" height="215" />
-            <em>{{ project.title }}</em>
-          </a>
-          <br />{{ project.summary }}
-        </li>
-      {% else %}
-        <li>
-          <a href="{{ project.url }}"><em>{{ project.title }}</em></a> {{ project.summary }}
-        </li>
+
+<section>
+  <h2>Handplockade projekt</h2>
+  <p>Jag skapar manicker och mojönger med hjälp av lödkolven och tangentbordet.</p>
+  <ul class="highlights">
+    {% for project in site.posts %}
+      {% if project.highlight_icon.size > 0 and project.tags contains 'project' %}
+        <li><a href="{{ project.url }}"><img src="/images/{{ project.highlight_icon}}.png" alt="" width="40" height="40" /> {{ project.title }}</a></li>
       {% endif %}
     {% endfor %}
   </ul>
+  <a href="/projekt" class="action-link">Utforska fler projekt</a>
 </section>
 
-<section id="articles" class="collection">
-  <h2>Artiklar och guider</h2>
-  <ul>
+<section class="spelkosmos">
+  <h2>Sanna + jag + tv-spel = &lt;3</h2>
+  <p>Min bästa kompis Sanna och jag driver Spelkosmos tillsammans: en peppig podcast om tv- och datorspel. Är du nybörjare eller nörd? Spelar ingen roll - alla är välkomna att lyssna!</p>
+  <a href="http://spelkosmos.se/" class="action-link">Lyssna på Spelkosmos</a>
+</section>
+
+<section>
+  <h2>Utvalda skriverier</h2>
+  <p>Ibland sätter jag mina tankar på pränt och delar dem med dig.</p>
+  <ul class="highlights">
     {% for post in site.posts %}
-      {% unless post.tags contains 'project' or post.tags contains 'archived' %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% unless post.highlight_icon.size == null or post.tags contains 'project' %}
+        <li><a href="{{ post.url }}"><img src="/images/{{ post.highlight_icon}}.png" alt="" width="40" height="40" /> {{ post.title | split: ',' | first }}</a></li>
       {% endunless %}
     {% endfor %}
   </ul>
+  <a href="/skriverier" class="action-link">Bläddra bland skriverier</a>
 </section>
 
-<section class="collection">
-  <h2>Föreläsningar</h2>
-  <ul>
-    {% for talk in site.data.talks %}
-      {% if forloop.first %}
-        <li class="hero">
-          <a href="{{ talk.url }}">
-            <img src="/images/hero-talk.jpg" alt="" width="384" height="213" />
-            <em>{{ talk.title }}</em>
-          </a>
-          <br />{{ talk.location }}
-        </li>
-      {% else %}
-        <li>
-          <a href="{{ talk.url }}"><em>{{ talk.title }}</em></a> {{ talk.location }}
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
+<section class="limepark">
+  <h2>Jag bygger webb på Limepark</h2>
+  <p>Jag har förmånen att få jobba med en av mina hobbies. Tillsammans med resten av gänget på Limepark bygger jag webb i Sveriges mest omtyckta CMS: SiteVision.</p>
+  <a href="https://limepark.se/limepark.html" class="action-link">Lär dig mer om Limepark</a>
 </section>
+
+<script>
+  (function () {
+    var highlightsImages = document.querySelectorAll('.highlights img');
+
+    function getRandomInt(min, max) {
+      return Math.floor(Math.random() * (max - min)) + min;
+    }
+
+    function bringAttentionToRandomHighlight() {
+      var randomIndex = getRandomInt(0, highlightsImages.length);
+      var randomHighlight = highlightsImages[randomIndex];
+
+      randomHighlight.classList.add('rubber-band');
+      randomHighlight.addEventListener('animationend', animationEnded);
+    }
+
+    function delayedAttentionToRandomHighlight() {
+      window.setTimeout(bringAttentionToRandomHighlight, getRandomInt(3, 7) * 1000);
+    }
+
+    function animationEnded() {
+      this.classList.remove('rubber-band');
+      delayedAttentionToRandomHighlight();
+    }
+
+    delayedAttentionToRandomHighlight();
+  }());
+</script>

@@ -2,7 +2,7 @@
 layout: post
 title: Triforcebling
 tags: project
-summary: Bling till nyckelknipan
+highlight_icon: triforcebling
 ---
 
 ![](/images/triforcebling.jpg)

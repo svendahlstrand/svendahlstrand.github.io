@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Nej tack till reklam, en gång för alla
+highlight_icon: reklam
 ---
 
 Är du trött på att brevlådan är proppfull med oönskad reklam? Att telefonförsäljare ringer och stör i tid och otid eller att du har svårt att se innehållet på en webbsida på grund av alla banners? Det finns bot, jag lovar!

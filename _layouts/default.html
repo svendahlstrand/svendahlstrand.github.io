@@ -6,17 +6,25 @@
 
     <link rel="stylesheet" type="text/css" href="/stylesheets/application.css">
 
-    <title>
-      {% if page.title %}
-        {{ page.title }} av Sven Dahlstrand
-      {% else %}
-        Sven Dahlstrand är en problemlösare, utvecklare och föreläsare.
-      {% endif %}
-    </title>
+    <title>{{ page.title }}</title>
   </head>
   <body>
-    <div id="wrapper">
-      {{ content }}
-    </div>
+    {{ content }}
+
+    {% unless page.url == '/' %}
+      <footer>
+        <nav>
+          <a href="/">Gå till hemsidan</a>, <a href="/projekt">utforska mina projekt</a> eller <a href="/skriverier">bläddra bland skriverier</a>.
+        </nav>
+        <p>
+          Vill du kontakta mig? Skicka ett e-brev till <a href="mailto:sven@dahlstrand.net">sven@dahlstrand.net</a>.
+        </p>
+      </footer>
+    {% endunless %}
+
+    <script>
+      // Enable hover pseudo class on iOS devices.
+      document.addEventListener('touchstart', function () {});
+    </script>
   </body>
 </html>

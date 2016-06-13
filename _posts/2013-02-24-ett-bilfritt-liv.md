@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Ett bilfritt liv
+highlight_icon: bilfritt
 ---
 
 Vissa dagar är det besvärligt att inte ha en bil. Till exempel när vi köpt något stort och tungt som ska fraktas hem eller när jag och Sanna vill ta en tur upp till sommarstugan. Då är det lätt att tänka: vore det inte enklare att skaffa bil?

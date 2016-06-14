@@ -49,29 +49,29 @@ title: Sven Dahlstrand
 
 <script>
   (function () {
-    var highlightsImages = document.querySelectorAll('.highlights img');
+    var attentionSeekers = document.querySelectorAll('.highlights img, .spelkosmos img');
 
     function getRandomInt(min, max) {
       return Math.floor(Math.random() * (max - min)) + min;
     }
 
-    function bringAttentionToRandomHighlight() {
-      var randomIndex = getRandomInt(0, highlightsImages.length);
-      var randomHighlight = highlightsImages[randomIndex];
+    function bringAttentionToRandomSeeker() {
+      var randomIndex = getRandomInt(0, attentionSeekers.length);
+      var randomAttentionSeeker = attentionSeekers[randomIndex];
 
-      randomHighlight.classList.add('rubber-band');
-      randomHighlight.addEventListener('animationend', animationEnded);
+      randomAttentionSeeker.classList.add('attention-seeker');
+      randomAttentionSeeker.addEventListener('animationend', animationEnded);
     }
 
-    function delayedAttentionToRandomHighlight() {
-      window.setTimeout(bringAttentionToRandomHighlight, getRandomInt(3, 7) * 1000);
+    function delayedAttentionToRandomSeeker() {
+      window.setTimeout(bringAttentionToRandomSeeker, getRandomInt(3, 7) * 1000);
     }
 
     function animationEnded() {
-      this.classList.remove('rubber-band');
-      delayedAttentionToRandomHighlight();
+      this.classList.remove('attention-seeker');
+      delayedAttentionToRandomSeeker();
     }
 
-    delayedAttentionToRandomHighlight();
+    delayedAttentionToRandomSeeker();
   }());
 </script>

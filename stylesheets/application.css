@@ -82,6 +82,7 @@ section h2 {
 
 .spelkosmos img {
   vertical-align: middle;
+  transform: translate3d(0, 0, 0);
 }
 
 .limepark {
@@ -279,7 +280,7 @@ footer {
 
 /* Animations */
 
-.rubber-band {
+.attention-seeker {
   animation: rubber-band 1s;
   animation-iteration-count: 1;
 }

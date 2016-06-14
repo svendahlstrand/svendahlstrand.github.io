@@ -76,6 +76,14 @@ section h2 {
   color: #fff;
 }
 
+.spelkosmos .action-link {
+  color: #fff;
+}
+
+.spelkosmos img {
+  vertical-align: middle;
+}
+
 .limepark {
   color: #fff;
 }
@@ -83,11 +91,6 @@ section h2 {
 .limepark .action-link {
   color: #fff;
 }
-
-.spelkosmos .action-link {
-  color: #fff;
-}
-
 /* Homepage responsive typography */
 
 @media (min-width: 32.8em) {

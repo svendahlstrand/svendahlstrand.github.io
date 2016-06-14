@@ -233,10 +233,6 @@ section {
   padding: 0;
 }
 
-article img {
-  width: 100%;
-}
-
 .video-wrapper {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */

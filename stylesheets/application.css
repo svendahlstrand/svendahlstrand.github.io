@@ -268,7 +268,7 @@ figure {
 }
 
 pre {
-  overflow: scroll;
+  overflow-x: auto;
 }
 
 footer {

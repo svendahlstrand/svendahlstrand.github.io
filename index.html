@@ -68,6 +68,12 @@ title: Sven Dahlstrand
 
     function bringAttentionToRandomSeeker() {
       var visibleAttentionSeekers = attentionSeekers.filter(isElementInViewport);
+
+      if (visibleAttentionSeekers.length === 0) {
+        delayedAttentionToRandomSeeker();
+        return;
+      }
+
       var randomIndex = getRandomInt(0, visibleAttentionSeekers.length);
       var randomAttentionSeeker = visibleAttentionSeekers[randomIndex];
 

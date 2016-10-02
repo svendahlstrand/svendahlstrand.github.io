@@ -1,0 +1,221 @@
+---
+layout: null
+title: 'Puzzle 1: Pushbuttons'
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+    <meta name="referrer" content="no-referrer">
+
+    <link rel="stylesheet" type="text/css" href="/stylesheets/application.css">
+
+    <style>
+      h1 {
+        background: black;
+        border-radius: 3px;
+        color: white;
+        display: block;
+        padding: 0.5em 0.5em 0.3em 0.5em;
+      }
+
+      #message {
+        border: double 6px black;
+        border-radius: 3px;
+        padding: 0 0.5em;
+        margin-bottom: 3em;
+
+        overflow: auto;
+      }
+
+      svg {
+        float: right;
+        margin-bottom: 0.5em;
+        width: 38px;
+        height: 36px;
+      }
+
+      .game {
+        -webkit-user-select: none;
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+      }
+
+      #ground {
+        height: 38px;
+        background: black;
+        border-radius: 3px;
+      }
+
+      #buttons {
+        height: 22px;
+        line-height: 0;
+        overflow: hidden;
+      }
+
+      button {
+        outline: none;
+        height: 22px;
+        width: 44px;
+        overflow: hidden;
+        border: solid 4px black;
+        background: gray;
+        color: gray;
+        margin: 4px 10px 0 10px;
+        line-height: 0;
+        padding: 0;
+        border-radius: 4px;
+        display: block;
+        float: left;
+        text-indent: -999px;
+
+        -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+        transition: 0.15s -webkit-transform ease-out, 0.15s transform ease-out;
+      }
+
+      .active {
+        -webkit-transform: translate3d(0, 10px, 0);
+                transform: translate3d(0, 10px, 0);
+      }
+    </style>
+
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+    <h1>{{ page.title }}</h1>
+
+    <div id="message">
+      <p><strong>Well hello there!</strong> I found these strange devices laying around. What are they? My therory is they exists just for the sake of a good puzzle.</p>
+      <svg id="top-hat" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38 36"><defs><style>.cls-1{fill:#fff;}.cls-2{fill:none;stroke:#000;stroke-linejoin:round;stroke-width:4px;}</style></defs><title>top-hat</title><rect class="cls-1" x="1" y="30" width="36" height="5" rx="1" ry="1"/><path d="M625,440v3H591v-3h34m0-2H591c-1.1,0-2,.4-2,1.5v3c0,1.1.9,2.5,2,2.5h34c1.1,0,2-1.4,2-2.5v-3c0-1.1-.9-1.5-2-1.5Z" transform="translate(-589 -409)"/><rect class="cls-1" x="7" y="1" width="24" height="29" rx="1" ry="1"/><path d="M619,411v26H597V411h22m0-2H597c-1.1,0-2,.48-2,1.58v26.83c0,1.1.9,1.58,2,1.58h22c1.1,0,2-.48,2-1.58V410.58c0-1.1-.9-1.58-2-1.58Z" transform="translate(-589 -409)"/><line class="cls-2" x1="8" y1="27" x2="30" y2="27"/></svg>
+      <p>I hope you can help me figuring them out. Cheers!</p>
+    </div>
+
+    <div class="game">
+      <div id="buttons">
+        <button type="button" name="1">Button 1</button>
+        <button type="button" name="2">Button 2</button>
+        <button type="button" name="3">Button 3</button>
+        <button type="button" name="4">Button 4</button>
+        <button type="button" name="5">Button 5</button>
+      </div>
+      <div id="ground"></div>
+    </div>
+
+    <script>
+      // Enable hover pseudo class on iOS devices.
+      document.addEventListener('touchstart', function () {});
+    </script>
+    <script>
+      var buttons = document.getElementById('buttons');
+      var numberOfButtons = document.querySelectorAll('button').length;
+
+      function getButton(name) {
+        return document.querySelector('button[name="' + name + '"]');
+      }
+
+      function toggle(button, callback) {
+        if (callback) {
+          var wrapperCallback = function () {
+            button.removeEventListener('transitionend', wrapperCallback);
+            callback();
+          };
+
+          button.addEventListener('transitionend', wrapperCallback);
+        }
+
+        button.classList.toggle('active');
+      }
+
+      function switchOff(button, callback) {
+        if (callback) {
+          var wrapperCallback = function () {
+            button.removeEventListener('transitionend', wrapperCallback);
+            callback();
+          };
+
+          button.addEventListener('transitionend', wrapperCallback);
+        }
+
+        if (button.classList.contains('active')) {
+          button.classList.remove('active');
+        }
+        else {
+          callback();
+        }
+      }
+
+      function win() {
+        var i = 1;
+        var direction = 1;
+
+        var toggleNextButton = function () {
+          if (direction === 1 && i > numberOfButtons) {
+            i = numberOfButtons;
+            direction = -1;
+          }
+          else if (direction === -1 && i < 1) {
+            i = 1;
+            direction = 1;
+          }
+
+          toggle(getButton(i), function () {
+            i += direction;
+            toggleNextButton();
+          });
+        };
+
+        toggleNextButton();
+      }
+
+      function reset() {
+        var i = 1;
+
+        var switchOffNextButton = function () {
+          switchOff(getButton(i), function () {
+            i += 1;
+
+            if (i <= numberOfButtons) {
+              switchOffNextButton();
+            }
+          });
+        };
+
+        switchOffNextButton();
+      }
+
+      var correctOrder = [1,2,3,5,4];
+      var currentState = correctOrder.slice();
+
+      function handleClick(event) {
+        var button = event.target;
+
+        if (button.type !== 'button') {
+          return;
+        }
+
+        var buttonNumber = parseInt(button.name);
+
+        toggle(button, function () {
+          if (currentState.length > 0 && buttonNumber !== currentState[0]) {
+            currentState = correctOrder.slice();
+            console.log('reset');
+            reset();
+          }
+          else {
+            currentState.shift();
+          }
+
+          if (currentState.length === 0) {
+            buttons.removeEventListener('click', handleClick);
+            win();
+            console.log('win');
+          }
+        });
+      }
+
+      buttons.addEventListener('click', handleClick);
+    </script>
+  </body>
+</html>

@@ -72,7 +72,7 @@ title: 'Puzzle 1: Pushbuttons'
 
         -webkit-transform: translate3d(0, 0, 0);
                 transform: translate3d(0, 0, 0);
-        transition: 0.15s -webkit-transform ease-out, 0.15s transform ease-out;
+        transition: 0.15s -webkit-transform ease-out, 0.06s transform ease-out;
       }
 
       .active {
@@ -107,9 +107,15 @@ title: 'Puzzle 1: Pushbuttons'
       // Enable hover pseudo class on iOS devices.
       document.addEventListener('touchstart', function () {});
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.0/howler.core.min.js"></script>
     <script>
-      var buttons = document.getElementById('buttons');
-      var numberOfButtons = document.querySelectorAll('button').length;
+      var buttonsWrapper = document.getElementById('buttons');
+      var buttons = document.querySelectorAll('button');
+      var numberOfButtons = buttons.length;
+
+      var buttonPressedEffect = new Howl({
+        src: ['/sounds/button-pressed.wav']
+      });
 
       function getButton(name) {
         return document.querySelector('button[name="' + name + '"]');
@@ -126,6 +132,7 @@ title: 'Puzzle 1: Pushbuttons'
         }
 
         button.classList.toggle('active');
+        buttonPressedEffect.play();
       }
 
       function switchOff(button, callback) {
@@ -140,6 +147,7 @@ title: 'Puzzle 1: Pushbuttons'
 
         if (button.classList.contains('active')) {
           button.classList.remove('active');
+          buttonPressedEffect.play();
         }
         else {
           callback();

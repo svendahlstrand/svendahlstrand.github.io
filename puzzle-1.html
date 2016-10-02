@@ -113,6 +113,7 @@ title: 'Puzzle 1: Pushbuttons'
       var buttonsWrapper = document.getElementById('buttons');
       var buttons = document.querySelectorAll('button');
       var numberOfButtons = buttons.length;
+      var pressEvent = window.ontouchstart ? 'touchstart' : 'mousedown';
 
       var buttonPressedEffect = new Howl({
         src: ['/sounds/button-pressed.wav']
@@ -217,14 +218,14 @@ title: 'Puzzle 1: Pushbuttons'
           }
 
           if (currentState.length === 0) {
-            buttons.removeEventListener('click', handleClick);
+            buttonsWrapper.removeEventListener(pressEvent, handleClick);
             win();
             console.log('win');
           }
         });
       }
 
-      buttons.addEventListener('click', handleClick);
+      buttonsWrapper.addEventListener(pressEvent, handleClick);
     </script>
   </body>
 </html>

@@ -8,5 +8,6 @@ exclude:
 kramdown:
   smart_quotes: ["apos", "apos", "quot", "quot"]
 timezone: Europe/Stockholm
+url: 'https://svendahlstrand.se'
 gems:
   - jekyll-sitemap

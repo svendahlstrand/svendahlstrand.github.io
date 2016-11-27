@@ -9,6 +9,15 @@
       <meta name="robots" content="noindex" />
     {% endif %}
 
+    {% for translation in site.data.i18n[page.i18n] %}
+      {% assign language = translation[0] %}
+      {% assign url = site.data.i18n.websites[language] | append: translation[1] %}
+
+      {% unless language == site.language %}
+        <link rel="alternate" hreflang="{{ language }}" href="{{ url }}" />
+      {% endunless %}
+    {% endfor %}
+
     <link rel="stylesheet" type="text/css" href="/stylesheets/application.css">
 
     <title>{{ page.title }}</title>

@@ -3,6 +3,7 @@ layout: post
 title: En annan sorts mjukvara
 tags: project
 highlight_icon: fanten
+i18n: software
 ---
 
 I vintras gick jag virkkurs hos min mamma och sen dess har jag börjat utveckla en annan sorts "mjukvara".

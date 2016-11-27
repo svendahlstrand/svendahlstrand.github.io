@@ -1,0 +1,38 @@
+{
+  "websites": {
+    "en": "https://svendahlstrand.com",
+    "sv": "https://svendahlstrand.se"
+  },
+  "home": {
+    "en": "/",
+    "sv": "/"
+  },
+  "projects": {
+    "en": "/projects/",
+    "sv": "/writings/"
+  },
+  "software": {
+    "en": "/a-different-kind-of-software/",
+    "sv": "/en-annan-sorts-mjukvara/"
+  },
+  "petmoj": {
+    "en": "/petmoj/",
+    "sv": "/petmoj/"
+  },
+  "pussel": {
+    "en": "/pussel/",
+    "sv": "/pussel/"
+  },
+  "writings": {
+    "en": "/writings/",
+    "sv": "/skriverier/"
+  },
+  "carfree": {
+    "en": "/a-carfree-life/",
+    "sv": "/ett-bilfritt-liv/"
+  },
+  "lars": {
+    "en": "/lars-and-the-inbox/",
+    "sv": "/lars-och-inkorgen/"
+  },
+}

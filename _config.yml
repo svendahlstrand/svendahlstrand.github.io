@@ -6,7 +6,7 @@ exclude:
   - Rakefile
   - vendor
 include:
-  - _pages  
+  - _pages
 
 gems:
   - jekyll-sitemap
@@ -18,3 +18,4 @@ kramdown:
   smart_quotes: ["apos", "apos", "quot", "quot"]
 
 url: 'https://svendahlstrand.se'
+language: 'sv'

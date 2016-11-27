@@ -2,6 +2,7 @@
 layout: post
 title: Lars och inkorgen
 highlight_icon: inkorg
+i18n: lars
 ---
 
 ![](/images/lars.jpg)

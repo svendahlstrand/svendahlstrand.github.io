@@ -1,13 +1,18 @@
-permalink: /:title/
+safe: true
 exclude:
   - CNAME
   - Gemfile
   - Gemfile.lock
   - Rakefile
   - vendor
-kramdown:
-  smart_quotes: ["apos", "apos", "quot", "quot"]
-timezone: Europe/Stockholm
-url: 'https://svendahlstrand.se'
+
 gems:
   - jekyll-sitemap
+
+permalink: /:title/
+timezone: Europe/Stockholm
+
+kramdown:
+  smart_quotes: ["apos", "apos", "quot", "quot"]
+
+url: 'https://svendahlstrand.se'

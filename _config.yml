@@ -5,6 +5,8 @@ exclude:
   - Gemfile.lock
   - Rakefile
   - vendor
+include:
+  - _pages  
 
 gems:
   - jekyll-sitemap

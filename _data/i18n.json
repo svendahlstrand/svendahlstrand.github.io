@@ -9,7 +9,7 @@
   },
   "projects": {
     "en": "/projects/",
-    "sv": "/writings/"
+    "sv": "/projekt/"
   },
   "software": {
     "en": "/a-different-kind-of-software/",
@@ -23,8 +23,8 @@
     "en": "/pussel/",
     "sv": "/pussel/"
   },
-  "writings": {
-    "en": "/writings/",
+  "writing": {
+    "en": "/writing/",
     "sv": "/skriverier/"
   },
   "carfree": {

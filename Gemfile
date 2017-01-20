@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'github-pages', '109'
+gem 'github-pages', '115'
 
 group :test do
-  gem 'rake'
   gem 'html-proofer'
+  gem 'rake'
 end

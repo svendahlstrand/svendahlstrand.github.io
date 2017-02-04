@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="sv">
+<html lang="{{ page.language }}">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
@@ -9,13 +9,12 @@
       <meta name="robots" content="noindex" />
     {% endif %}
 
-    {% for translation in site.data.i18n[page.i18n] %}
-      {% assign language = translation[0] %}
-      {% assign url = site.data.i18n.websites[language] | append: translation[1] %}
+    {% for language in site.languages %}
+      {% assign url = page[language] %}
 
-      {% unless language == site.language %}
+      {% if url %}
         <link rel="alternate" hreflang="{{ language }}" href="{{ url }}" />
-      {% endunless %}
+      {% endif %}
     {% endfor %}
 
     <link rel="stylesheet" type="text/css" href="/stylesheets/application.css">
@@ -25,7 +24,7 @@
   <body>
     {{ content }}
 
-    {% unless page.url == '/' %}
+    {% if page.url != '/' and page.language == 'sv'%}
       <footer>
         <nav>
           <a href="/">Gå till hemsidan</a>, <a href="/projekt">utforska mina projekt</a> eller <a href="/skriverier">bläddra bland skriverier</a>.
@@ -34,7 +33,18 @@
           Vill du kontakta mig? Skicka ett e-brev till <a href="mailto:sven@dahlstrand.net">sven@dahlstrand.net</a>.
         </p>
       </footer>
-    {% endunless %}
+    {% endif %}
+
+    {% if page.url != '/en/' and page.language == 'en'%}
+      <footer>
+        <nav>
+          <a href="/en/">Go home</a>, <a href="/en/projects/">discover my projects</a> or <a href="/en/writing/">thumb through my writing</a>.
+        </nav>
+        <p>
+          I'd love to hear from you! Send an email to <a href="mailto:sven@dahlstrand.net">sven@dahlstrand.net</a>.
+        </p>
+      </footer>
+    {% endif %}
 
     <script>
       // Enable hover pseudo class on iOS devices.

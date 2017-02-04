@@ -1,0 +1,97 @@
+---
+layout: default
+title: Sven Dahlstrand
+sv: /
+---
+
+<header>
+  <img src="/images/sven.png" alt="" width="70" height="88" />
+  <h1>Hello! I'm Sven Dahlstrand.</h1>
+  <p>As an eight-year-old I started talking to computers, telling them what to do. I never stopped.</p>
+</header>
+
+<section>
+  <h2>Cherry picked projects</h2>
+  <p>I love tinkering and creating gizmos using my soldering iron and keyboard.</p>
+  <ul class="highlights">
+    {% for project in site.categories.en %}
+      {% if project.highlight_icon.size > 0 and project.tags contains 'project' %}
+        <li><a href="{{ project.url }}"><img src="/images/{{ project.highlight_icon}}.png" alt="" width="40" height="40" /> {{ project.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+  <a href="/en/projects" class="action-link">Discover my projects</a>
+</section>
+
+<section class="spelkosmos">
+  <h2>Sanna + me + video games = <img src="/images/hjarta.png" width="40" height="40" alt="love" /></h2>
+  <p>My best friend Sanna and I have Spelkosmos together: a peppy podcast about video games. Are you a newbie or a nerd? It doesn't matter - it's for everyone!</p>
+  <a href="https://spelkosmos.se/" class="action-link">Listen to Spelkosmos (in Swedish)</a>
+</section>
+
+<section>
+  <h2>Selected writing</h2>
+  <p>Sometimes a take my ideas, write them down and share them with you.</p>
+  <ul class="highlights">
+    {% for post in site.categories.en %}
+      {% unless post.highlight_icon.size == null or post.tags contains 'project' %}
+        <li><a href="{{ post.url }}"><img src="/images/{{ post.highlight_icon}}.png" alt="" width="40" height="40" /> {{ post.title | split: ',' | first }}</a></li>
+      {% endunless %}
+    {% endfor %}
+  </ul>
+  <a href="/en/writing" class="action-link">Thumb through my writing</a>
+</section>
+
+<section class="limepark">
+  <h2>I'm weaving the web at Limepark</h2>
+  <p>I'm lucky to have a job that I feel passionate about. Together with the rest of the team at Limepark, I weave the web. We have focused exclusively on Swedens most cherished content management system: SiteVision.</p>
+  <a href="https://limepark.se/limepark.html" class="action-link">Get to know Limepark (in Swedish)</a>
+</section>
+
+
+<script>
+  (function () {
+    var attentionSeekers = Array.prototype.slice.call(document.querySelectorAll('.highlights img, .spelkosmos img'));
+
+    function getRandomInt(min, max) {
+      return Math.floor(Math.random() * (max - min)) + min;
+    }
+
+    function isElementInViewport (el) {
+      var rect = el.getBoundingClientRect();
+
+      return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+      );
+    }
+
+    function bringAttentionToRandomSeeker() {
+      var visibleAttentionSeekers = attentionSeekers.filter(isElementInViewport);
+
+      if (visibleAttentionSeekers.length === 0) {
+        delayedAttentionToRandomSeeker();
+        return;
+      }
+
+      var randomIndex = getRandomInt(0, visibleAttentionSeekers.length);
+      var randomAttentionSeeker = visibleAttentionSeekers[randomIndex];
+
+      randomAttentionSeeker.classList.add('attention-seeker');
+      randomAttentionSeeker.addEventListener('animationend', animationEnded);
+    }
+
+    function delayedAttentionToRandomSeeker() {
+      window.setTimeout(bringAttentionToRandomSeeker, getRandomInt(3, 7) * 1000);
+    }
+
+    function animationEnded() {
+      this.classList.remove('attention-seeker');
+      delayedAttentionToRandomSeeker();
+    }
+
+    delayedAttentionToRandomSeeker();
+  }());
+</script>

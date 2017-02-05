@@ -28,6 +28,6 @@ Så jag har kavlat upp ärmarna och kommit fram till följande lösning:
 {% endraw %}
 {% endhighlight %}
 
-Du hittar även en [mindre pratig variant på GitHub] [1].
+Du hittar även en [mindre pratig variant på GitHub][1].
 
-[1]: https://github.com/svendahlstrand/svendahlstrand.github.io/blob/master/_includes/localized-date.liquid
+[1]: https://github.com/svendahlstrand/svendahlstrand.github.io/blob/master/_layouts/post.html#L7

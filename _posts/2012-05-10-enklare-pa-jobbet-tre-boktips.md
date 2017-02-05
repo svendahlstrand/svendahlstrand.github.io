@@ -17,5 +17,5 @@ Jag ser till att fira varje litet framsteg!
 
 [1]: http://37signals.com/rework
 [2]: http://amzn.com/B00UMD5JJC
-[3]: http://focusmanifesto.com
+[3]: https://zenhabits.net/focus-book/
 [4]: http://modernmeetingstandard.com/the-book

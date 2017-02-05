@@ -10,7 +10,7 @@ Jag är utvecklare först och främst men likt förbannat behöver jag värka fr
 
 Ibland behöver vi dock se vad andra har gjort och hur de har löst liknande problem. Jag har några favoritwebblatser som jag kan surfa på länge:
 
-* [Dribble](http://dribbble.com): duktiga kreatörer visar upp sina senaste alster.
+* [Dribble](https://dribbble.com): duktiga kreatörer visar upp sina senaste alster.
 * [Little Big Details](http://littlebigdetails.com): fokus på små detaljer i användargränssnitt.
 * [Subtle Patterns](http://subtlepatterns.com): fria bakgrundsbilder av hög kvalité.
 * [Patterntap](http://patterntap.com) och [UI-Patterns](http://ui-patterns.com): beprövade lösningar på vanliga problem.

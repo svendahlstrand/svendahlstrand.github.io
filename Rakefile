@@ -6,8 +6,7 @@ task :test do
                               empty_alt_ignore: true,
                               check_html: true,
                               only_4xx: true,
-                              http_status_ignore: [403]
-                             ).run
+                              http_status_ignore: [403]).run
 end
 
 task default: [:test]

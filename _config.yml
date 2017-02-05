@@ -23,18 +23,17 @@ defaults:
       path: ""
     values:
       language: "sv"
-      category: ["sv"]
   -
     scope:
       path: "en"
     values:
       language: "en"
-      category: ["en"]
   -
     scope:
       path: "en"
       type: posts
     values:
       permalink: /en/:title/
+
 
 languages: ["sv", "en"]

@@ -4,17 +4,16 @@ permalink: /projekt/
 title: Projekt
 en: /en/projects/
 ---
+{% assign projects = site.tags.project | where:"language",page.language %}
 
 <article>
   <h1>{{ page.title }}</h1>
 
   <ul class="archive">
-    {% for project in site.categories.sv %}
-      {% if project.tags contains 'project' %}
-        <li>
-          <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
-        </li>
-      {% endif %}
+    {% for project in projects %}
+      <li>
+        <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
+      </li>
     {% endfor %}
   </ul>
 </article>

@@ -1,5 +1,4 @@
 exclude:
-  - CNAME
   - Gemfile
   - Gemfile.lock
   - Rakefile

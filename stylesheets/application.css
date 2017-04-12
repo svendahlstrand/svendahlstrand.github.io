@@ -125,7 +125,11 @@ a {
 }
 
 a:hover,
-a:focus {
+a:focus,
+button:hover,
+button:focus,
+input:hover,
+input:focus {
   /* Remove browser specified outlines. */
   outline: none;
 }
@@ -148,7 +152,8 @@ header p {
   clear: both;
 }
 
-.extra-copy {
+.extra-copy,
+.hidden {
   display: none;
 }
 
@@ -276,6 +281,46 @@ footer {
   border-top: solid 2px #d3d3d3;
   padding: 1em 0;
   margin: 0 1em;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: row;
+}
+
+.search-field, .search-button {
+  font-size: 1em;
+  border-radius: 4px;
+}
+
+.search-field {
+  padding: 10px;
+  border: solid 2px #d3d3d3;
+  color: #333;
+  flex-grow: 1;
+}
+
+.search-field:hover,
+.search-field:focus {
+  border-color: #003c7a;
+}
+
+.search-button {
+  background: #06a;
+  padding: 12px 24px;
+  border: none;
+  color: #fff;
+  flex-shrink: 1;
+}
+
+.search-button:hover,
+.search-button:focus {
+  background: #003c7a;
+}
+
+.search-button:active {
+  background: #003c7a;
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.8);
 }
 
 /* Animations */

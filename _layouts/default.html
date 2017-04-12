@@ -32,6 +32,13 @@
         <p>
           Vill du kontakta mig? Skicka ett e-brev till <a href="mailto:sven@dahlstrand.net">sven@dahlstrand.net</a>.
         </p>
+        <form method="get" action="https://duckduckgo.com/" class="search-form">
+          <label for="query" class="hidden">Söktermer</label>
+          <input id="query" name="q" placeholder="Sök på webbplatsen" class="search-field" />
+          <input type="hidden" name="sites" value="svendahlstrand.se" />
+
+          <button class="search-button">Sök</button>
+        </form>
       </footer>
     {% endif %}
 
@@ -43,6 +50,13 @@
         <p>
           I'd love to hear from you! Send an email to <a href="mailto:sven@dahlstrand.net">sven@dahlstrand.net</a>.
         </p>
+        <form method="get" action="https://duckduckgo.com/" class="search-form">
+          <label for="query" class="hidden">Search terms</label>
+          <input id="query" name="q" placeholder="Search this site" class="search-field" />
+          <input type="hidden" name="sites" value="svendahlstrand.se" />
+
+          <button class="search-button">Search</button>
+        </form>
       </footer>
     {% endif %}
 

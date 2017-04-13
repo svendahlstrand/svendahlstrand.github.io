@@ -25,33 +25,17 @@
     {{ content }}
 
     <footer>
-      {% if page.language == 'sv' %}
-        <nav>
-          <a href="/">Gå till hemsidan</a>, <a href="/projekt">utforska mina projekt</a> eller <a href="/skriverier">bläddra bland skriverier</a>.
-        </nav>
+      <nav>
+        <a href="{% t home_path %}">{% t go_home %}</a>, <a href="{% t projects_path %}">{% t discover_projects %}</a> {% t or %} <a href="{% t writing_path %}">{% t thumb_throug_writing %}</a>.
+      </nav>
 
-        <form method="get" action="https://duckduckgo.com/" class="search-form">
-          <label for="query" class="hidden">Söktermer</label>
-          <input id="query" name="q" placeholder="Sök på webbplatsen" class="search-field" />
-          <input type="hidden" name="sites" value="svendahlstrand.se" />
+      <form method="get" action="https://duckduckgo.com/" class="search-form">
+        <label for="query" class="hidden">{% t search_terms %}</label>
+        <input id="query" name="q" placeholder="{% t search_site %}" class="search-field" />
+        <input type="hidden" name="sites" value="svendahlstrand.se" />
 
-          <button class="search-button">Sök</button>
-        </form>
-      {% endif %}
-
-      {% if page.language == 'en'%}
-        <nav>
-          <a href="/en/">Go home</a>, <a href="/en/projects/">discover my projects</a> or <a href="/en/writing/">thumb through my writing</a>.
-        </nav>
-
-        <form method="get" action="https://duckduckgo.com/" class="search-form">
-          <label for="query" class="hidden">Search terms</label>
-          <input id="query" name="q" placeholder="Search this site" class="search-field" />
-          <input type="hidden" name="sites" value="svendahlstrand.se" />
-
-          <button class="search-button">Search</button>
-        </form>
-      {% endif %}
+        <button class="search-button">{% t search %}</button>
+      </form>
     </footer>
 
     <script>

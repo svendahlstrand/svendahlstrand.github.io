@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: Sven Dahlstrand
 sv: /
 ---
@@ -49,51 +49,3 @@ sv: /
   <p>I'm lucky to have a job that I feel passionate about. Together with the rest of the team at Limepark, I weave the web. We have focused exclusively on Swedens most cherished content management system: SiteVision.</p>
   <a href="https://limepark.se/limepark.html" class="action-link">Get to know Limepark (in Swedish)</a>
 </section>
-
-
-<script>
-  (function () {
-    var attentionSeekers = Array.prototype.slice.call(document.querySelectorAll('.highlights img, .spelkosmos img'));
-
-    function getRandomInt(min, max) {
-      return Math.floor(Math.random() * (max - min)) + min;
-    }
-
-    function isElementInViewport (el) {
-      var rect = el.getBoundingClientRect();
-
-      return (
-        rect.top >= 0 &&
-        rect.left >= 0 &&
-        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-      );
-    }
-
-    function bringAttentionToRandomSeeker() {
-      var visibleAttentionSeekers = attentionSeekers.filter(isElementInViewport);
-
-      if (visibleAttentionSeekers.length === 0) {
-        delayedAttentionToRandomSeeker();
-        return;
-      }
-
-      var randomIndex = getRandomInt(0, visibleAttentionSeekers.length);
-      var randomAttentionSeeker = visibleAttentionSeekers[randomIndex];
-
-      randomAttentionSeeker.classList.add('attention-seeker');
-      randomAttentionSeeker.addEventListener('animationend', animationEnded);
-    }
-
-    function delayedAttentionToRandomSeeker() {
-      window.setTimeout(bringAttentionToRandomSeeker, getRandomInt(3, 7) * 1000);
-    }
-
-    function animationEnded() {
-      this.classList.remove('attention-seeker');
-      delayedAttentionToRandomSeeker();
-    }
-
-    delayedAttentionToRandomSeeker();
-  }());
-</script>

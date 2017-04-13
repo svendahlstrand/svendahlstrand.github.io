@@ -15,7 +15,7 @@ module Jekyll
       i18n = context['site.data.i18n']
       language = context['page.language']
 
-      i18n[language][@key]
+      i18n[language][@key] || 'missing_translation'
     end
   end
 end

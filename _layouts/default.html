@@ -29,37 +29,18 @@
         <a href="{% t home_path %}">{% t go_home %}</a>, <a href="{% t projects_path %}">{% t discover_projects %}</a> {% t or %} <a href="{% t writing_path %}">{% t thumb_through_writing %}</a>.
       </nav>
 
-      <form method="post" action="https://s3arch.eu" class="search-form">
+      <form method="get" action="https://duckduckgo.com/" class="search-form">
         <label for="query" class="hidden">{% t search_terms %}</label>
-        <input id="query" name="q" placeholder="{% t search_site %}" class="search-field" value="site:svendahlstrand.se " />
-        <input type="hidden" name="language" value="{% t search_language %}" />
+        <input id="query" name="q" placeholder="{% t search_site %}" class="search-field" />
+        <input type="hidden" name="sites" value="svendahlstrand.se" />
 
         <button class="search-button">{% t search %}</button>
       </form>
     </footer>
 
     <script>
-      (function () {
-        // Enable hover pseudo class on iOS devices.
-        document.addEventListener('touchstart', function () {});
-
-        // Handle search form submission.
-        var form = document.querySelector('.search-form');
-        var queryInput = document.getElementById('query');
-        var originalQuery = queryInput.value.trim();
-        var clonedForm = form.cloneNode(true);
-
-        queryInput.value = '';
-
-        form.addEventListener('submit', function (event) {
-          var completeQuery = [originalQuery, queryInput.value].join(' ');
-
-          clonedForm.querySelector('#query').value = completeQuery;
-          clonedForm.submit();
-
-          event.preventDefault();
-        });
-      }());
+      // Enable hover pseudo class on iOS devices.
+      document.addEventListener('touchstart', function () {});
     </script>
   </body>
 </html>

@@ -6,7 +6,7 @@ exclude:
 include:
   - _pages
 
-gems:
+plugins:
   - jekyll-sitemap
 
 permalink: /:title/

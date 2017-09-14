@@ -15,7 +15,7 @@ Det har smugit sig in ett litet fel i detta avsnitt. I Velocity-mallen kollar ja
 
 ## Länkar
 
-* [Carousel Pattern - Design Pattern Library - YDN] [3]
+* [Carousel design pattern] [3]
 * [Material från föredragen - SiteVision] [4]
 * [Nivo Slider - The Most Awesome jQuery Image Slider] [5]
 * [jQuery Infinite Carousel \| jQuery for Designers] [6]
@@ -27,7 +27,7 @@ Det har smugit sig in ett litet fel i detta avsnitt. I Velocity-mallen kollar ja
 
 [1]: https://github.com/svendahlstrand/sitevision-episodes/blob/master/002-carousel/velocity.vm
 [2]: https://github.com/svendahlstrand/sitevision-episodes/blob/e045f5891af1a94d41512adfa1d1a3f46ea7f598/002-carousel/velocity.vm
-[3]: http://developer.yahoo.com/ypatterns/selection/carousel.html
+[3]: http://ui-patterns.com/patterns/Carousel
 [4]: http://web.archive.org/web/20100713182545/http://www.sitevision.se/Aktuellt/SiteVisiondagarna-2010/Material-fran-foredragen.html
 [5]: http://nivo.dev7studios.com
 [6]: https://code.google.com/p/jquery-infinite-carousel

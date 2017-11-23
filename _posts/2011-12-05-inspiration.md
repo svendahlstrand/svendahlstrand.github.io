@@ -13,6 +13,6 @@ Ibland behöver vi dock se vad andra har gjort och hur de har löst liknande pro
 * [Dribble](https://dribbble.com): duktiga kreatörer visar upp sina senaste alster.
 * [Little Big Details](http://littlebigdetails.com): fokus på små detaljer i användargränssnitt.
 * [Subtle Patterns](http://subtlepatterns.com): fria bakgrundsbilder av hög kvalité.
-* [Patterntap](http://patterntap.com) och [UI-Patterns](http://ui-patterns.com): beprövade lösningar på vanliga problem.
+* [UI-Patterns](http://ui-patterns.com): beprövade lösningar på vanliga problem.
 
 Hur startar du om hjärnan när inspirationen tryter?

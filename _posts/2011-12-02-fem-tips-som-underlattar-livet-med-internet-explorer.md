@@ -8,7 +8,7 @@ Du som producerar HTML och CSS till vardags har med största sannolikhet öppnat
 
 Denna best som vi älskar att hata. Så många timmar vi lagt på att, svärandes, slita vårt hår över någon liten olikhet.
 
-Även om det går mot ljusare tider, till och med [Microsoft vill ta livet av IE 6](http://www.ie6countdown.com), känns det som att det kommer dröja innan äldre versioner av webbläsaren är ett minne blott. Och eftersom vi ändå kommer få dras med aset ett tag till kan vi lika gärna göra det bästa av situationen. Här följer några tips som gör livet med Internet Explorer lite lättare:
+Även om det går mot ljusare tider, till och med Microsoft vill ta livet av IE 6, känns det som att det kommer dröja innan äldre versioner av webbläsaren är ett minne blott. Och eftersom vi ändå kommer få dras med aset ett tag till kan vi lika gärna göra det bästa av situationen. Här följer några tips som gör livet med Internet Explorer lite lättare:
 
 * [ievms](https://github.com/xdissent/ievms): tar automatiskt hem och installerar virtuella maskiner med Windows och IE på. Smidigt för dig som sitter i OS X eller GNU/Linux.
 * [BrowserStack](http://www.browserstack.com): kör IE i molnet med debuggverktyg.

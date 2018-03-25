@@ -2,6 +2,7 @@
 layout: post
 title: Slumpa fram artiklar i SiteVision
 tags: archived
+language: sv
 ---
 
 Lär dig hur du med hjälp av Skriptmodulen i SiteVision slumpar fram artiklar ur ett arkiv.

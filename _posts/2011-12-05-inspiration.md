@@ -2,6 +2,7 @@
 layout: post
 title: Inspiration
 tags: archived
+language: sv
 ---
 
 ![Dribble](/images/dribble.jpg)

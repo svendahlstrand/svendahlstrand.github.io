@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 30-dagarsregeln
+language: sv
 ---
 
 För mig är en del av en enklare tillvaro att äga mindre prylar och spendera mindre pengar. Det går tvärt emot min natur. När Tim Cooks står och presenterar nästa iPad eller iMac vill jag genast ha den. Omedelbums, med det samma.

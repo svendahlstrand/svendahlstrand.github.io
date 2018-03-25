@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Mindre prylar
+language: sv
 ---
 
 Jag är prylgalen! Det kan vara mobiltelefoner, radiostyrda bollar eller en våg som twittrar min vikt. Är det en pryl är chansen stor att jag vill ha den.

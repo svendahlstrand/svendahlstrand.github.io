@@ -2,8 +2,8 @@
 layout: post
 title: En annan sorts mjukvara
 tags: project
-highlight_icon: fanten
-en: /en/a-different-kind-of-software/
+en: /a-different-kind-of-software/
+language: sv
 ---
 
 I vintras gick jag virkkurs hos min mamma och sen dess har jag börjat utveckla en annan sorts "mjukvara".

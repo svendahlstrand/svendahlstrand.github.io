@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Svenska månadsnamn på GitHub Pages
+language: sv
 ---
 
 Jag gillar datum med månadsnamnet utskrivet: 30 juni 2014. Men jag har fått brottas med Liquid-mallar för att få dem att lira med Jekyll och GitHub Pages.

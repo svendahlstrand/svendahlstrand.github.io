@@ -2,6 +2,7 @@
 layout: post
 title: Webbramverk på micronivå
 tags: archived
+language: sv
 ---
 
 Om du bygger mindre webbappar eller prototyper ska du helt klart kika på

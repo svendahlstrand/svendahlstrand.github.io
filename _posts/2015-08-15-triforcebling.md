@@ -2,6 +2,7 @@
 layout: post
 title: Triforcebling
 tags: project
+language: sv
 ---
 
 ![](/images/triforcebling.jpg)

@@ -1,20 +1,21 @@
 ---
 layout: default
-title: Skriverier
+title: Writing
 sitemap: false
-permalink: /skriverier/
-en: /en/writing/
+permalink: /writing/
 ---
-{% assign posts = site.posts | where:"language",page.language %}
 
 <article>
   <h1>{{ page.title }}</h1>
 
   <ul class="archive">
-    {% for post in posts %}
+    {% for post in site.posts %}
       {% unless post.tags contains 'project' or post.tags contains 'archived'  %}
-        <li>
-          <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <li lang="{{ post.language }}">
+          <h2>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+            {% include flag.html language=post.language %}
+          </h2>
           <p>{{ post.summary }}</p>
         </li>
       {% endunless %}
@@ -25,10 +26,13 @@ en: /en/writing/
   <p>I världen bland ettor och nollor där utvecklingen går snabbt åldras inte alla skriverier med värdighet. När jag tycker något känns mossigt hamnar det i arkivet.</p>
 
   <ul class="archive">
-    {% for post in posts %}
+    {% for post in site.posts %}
       {% if post.tags contains 'archived' %}
-        <li>
-          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <li lang="{{ post.language }}">
+          <h3>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+            {% include flag.html language=post.language %}
+          </h3>
           <p>{{ post.summary }}</p>
         </li>
       {% endif %}

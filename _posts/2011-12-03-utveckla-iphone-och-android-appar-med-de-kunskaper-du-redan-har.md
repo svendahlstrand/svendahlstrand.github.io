@@ -2,6 +2,7 @@
 layout: post
 title: Utveckla iPhone- och Android-appar med de kunskaper du redan har
 tags: archived
+language: sv
 ---
 
 [PhoneGap](http://phonegap.com) låter dig utveckla plattformsoberoende mobilappar, redo att lanseras i App Store eller på Android market, med webbtekniker som du redan kan. Dessutom exponeras API:er för till exempel kamera, bildgalleri och ljuduppspelning. Allt detta kommer du åt genom att skriva vanlig HTML, CSS och JavaScript.

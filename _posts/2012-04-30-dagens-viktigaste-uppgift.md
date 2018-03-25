@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Dagens viktigaste uppgift
+language: sv
 ---
 
 Jag har märkt att mina dagar blir bättre om det första jag gör är något som är viktigt för mig. Jag väljer ut en eller ett par saker på min att göra-lista som jag vill få klart idag – och gör dem. Innan jag gör något annat!

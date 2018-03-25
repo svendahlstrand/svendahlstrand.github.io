@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Våga strypa informationsflödet
+language: sv
 ---
 
 En inte så liten ström med information pockar på min uppmärksamhet varje dag. Jag har flera nyhetskanaler som jag ser som inkorgar som måste tömmas. Det är ett under att jag får något gjort! Här kommer några exempel på inkorgar:

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Tidstjuvar och nyttoappar
+language: sv
 ---
 
 ![](/images/iphone.jpg)

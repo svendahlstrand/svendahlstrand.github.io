@@ -10,7 +10,7 @@ layout: default
   {% endif %}
 {% endcapture %}
 
-<article>
+<article lang="{{ page.language }}">
   <h1>{{ page.title }}</h1>
   {{ content }}
   <p><time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ human_date | strip }}</time></p>

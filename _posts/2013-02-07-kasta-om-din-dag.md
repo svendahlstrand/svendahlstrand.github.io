@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Kasta om din dag
+language: sv
 ---
 
 Känner du att tiden inte riktigt räcker till, att du aldrig hinner med det du vill? Testa att kasta om din dag!

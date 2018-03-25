@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Koppla ner och av
+language: sv
 ---
 
 Jag stänger av min mobiltelefon ibland. Det kanske låter konstigt men jag behöver göra det för att kunna koppla av fullständigt. När telefonen är på kan det när som helst ringa eller dimpa ner ett meddelande. Dessutom är mobilen kortaste vägen ut till Internet och allt vad det innebär med Twitter och annat brus. Det blir en sorts stress.

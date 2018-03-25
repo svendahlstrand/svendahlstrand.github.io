@@ -2,6 +2,7 @@
 layout: post
 title: Karusell med intelligenta mallar i SiteVision
 tags: archived
+language: sv
 ---
 
 Gör dina redaktörer glada med intelligenta mallar. Lär dig hur du gör grymma karuseller (bildspel) med hjälp av fria JavaScript-bibliotek och metadata i SiteVision.

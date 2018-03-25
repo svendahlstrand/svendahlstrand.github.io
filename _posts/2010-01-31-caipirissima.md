@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Caipirissima
+language: sv
 ---
 
 Jag älskar rom och drinkar som är baserade på detta sockerrörsdestillat. Jag tycker så mycket om det att jag ibland byter ut basspriten i andra drinkar mot just rom. Ikväll blev det en variant på [Caipirinha] [1], Brasiliens nationalcocktail.

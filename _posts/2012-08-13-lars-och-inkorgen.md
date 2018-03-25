@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Lars och inkorgen
-highlight_icon: inkorg
-en: /en/lars-and-the-inbox/
+en: /lars-and-the-inbox/
+language: sv
 ---
 
 ![](/images/lars.jpg)

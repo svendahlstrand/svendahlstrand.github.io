@@ -2,6 +2,7 @@
 layout: post
 title: Fem tips som underlättar livet med Internet Explorer
 tags: archived
+language: sv
 ---
 
 Du som producerar HTML och CSS till vardags har med största sannolikhet öppnat en webbplats i både en, två eller fyra versioner av Internet Explorer - bara för att upptäcka att en detalj inte ser likadan ut som i *alla* andra webbläsare.

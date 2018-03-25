@@ -2,6 +2,7 @@
 layout: post
 title: Tillbaka till skrivbordsapplikationer
 tags: archived
+language: sv
 ---
 Idag använder jag webben på ett helt annat sätt än för 10 år sedan. De flesta av de applikationer jag  använder har flyttat ut på Internet. E-post, kalender och att göra-listor är några exempel. Det finns dock några nackdelar med att köra dessa i webbläsaren. De tar upp plats med flera tabbar och man kan inte nyttja OS X Exposé-funktion för att få en översikt. Jag saknar också att ha en Dock-ikon med med statusinformation, som till exempel antalet olästa e-brev.
 

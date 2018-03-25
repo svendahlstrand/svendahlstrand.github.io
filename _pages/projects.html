@@ -1,0 +1,21 @@
+---
+layout: default
+title: Projects
+sitemap: false
+permalink: /projects/
+---
+
+<article>
+  <h1>{{ page.title }}</h1>
+
+  <ul class="archive">
+    {% for project in site.tags.project %}
+      <li lang="{{ project.language }}">
+        <h2>
+          <a href="{{ project.url }}">{{ project.title }}</a>
+          {% include flag.html language=project.language %}
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+</article>

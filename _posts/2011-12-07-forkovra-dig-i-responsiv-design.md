@@ -2,6 +2,7 @@
 layout: post
 title: Förkovra dig i responsiv design
 tags: archived
+language: sv
 ---
 
 Det snackas mycket om responsiv design nu för tiden. I stället för att leverera flera olika versioner av en webbplats, beroende på om besökaren surfar från en dator eller mobil, handlar responsiv design om *en* webb. En webb som anpassar sig efter skärmstorlek och andra förutsättningar.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Enklare på jobbet - tre boktips
+language: sv
 ---
 
 Har du någon gång kännt att det är mycket att göra på jobbet? Det känner jag ibland. För många bollar i luften, möte efter möte och en aldrig sinande ström med problem att lösa. Jag älskar mitt jobb men där, precis som hemma, finns ett behov av en enklare tillvaro. Jag strävar alltid efter att bli mer effektiv och fokusera på rätt saker.

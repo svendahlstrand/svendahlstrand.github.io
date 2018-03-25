@@ -5,6 +5,7 @@ exclude:
   - vendor
 include:
   - _pages
+  - _redirects
 
 plugins:
   - jekyll-sitemap
@@ -20,19 +21,7 @@ defaults:
     scope:
       path: ""
     values:
-      language: "sv"
-  -
-    scope:
-      path: "en"
-    values:
       language: "en"
-  -
-    scope:
-      path: "en"
-      type: posts
-    values:
-      permalink: /en/:title/
-
 
 languages: ["sv", "en"]
 

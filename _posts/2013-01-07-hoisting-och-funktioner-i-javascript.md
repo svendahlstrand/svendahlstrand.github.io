@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hoisting och funktioner i JavaScript
+language: sv
 ---
 
 Här kommer en några kluriga rader JavaScript, kan du tala om vad som skrivs ut i konsollen när de körs?

@@ -2,6 +2,7 @@
 layout: post
 title: Tandborstställ
 tags: project
+language: sv
 ---
 
 ![](/images/tandborststall.jpg)

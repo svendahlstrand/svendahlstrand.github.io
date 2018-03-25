@@ -2,6 +2,7 @@
 layout: post
 title: Karusell med bildtext i SiteVision
 tags: archived
+language: sv
 ---
 
 En fortsättning på föregående avsnitt. Här bygger jag ut funktionaliteten så att en redaktör lätt kan lägga till en bildtext för bilderna i karusellen.

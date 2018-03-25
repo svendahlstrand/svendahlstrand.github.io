@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ page.language }}">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
@@ -17,6 +17,7 @@
       {% endif %}
     {% endfor %}
 
+
     <link rel="stylesheet" type="text/css" href="/stylesheets/application.css">
 
     <title>{{ page.title }}</title>
@@ -26,15 +27,15 @@
 
     <footer>
       <nav>
-        <a href="{% t home_path %}">{% t go_home %}</a>, <a href="{% t projects_path %}">{% t discover_projects %}</a> {% t or %} <a href="{% t writing_path %}">{% t thumb_through_writing %}</a>.
+        <a href="/">Go home</a>, <a href="/projects/">discover my projects</a> or <a href="/writing/">thumb through my writing</a>.
       </nav>
 
       <form method="get" action="https://duckduckgo.com/" class="search-form">
-        <label for="query" class="hidden">{% t search_terms %}</label>
-        <input id="query" name="q" placeholder="{% t search_site %}" class="search-field" />
+        <label for="query" class="hidden">Search terms</label>
+        <input id="query" name="q" placeholder="Search this site" class="search-field" />
         <input type="hidden" name="sites" value="svendahlstrand.se" />
 
-        <button class="search-button">{% t search %}</button>
+        <button class="search-button">Search</button>
       </form>
     </footer>
 

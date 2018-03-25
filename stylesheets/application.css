@@ -56,8 +56,7 @@ h3 {
   font-size: 1.2em;
 }
 
-h2 > img,
-h3 > img {
+.swedish-flag {
   width: auto !important;
   margin-left: 0 !important;
   height: 0.6em;

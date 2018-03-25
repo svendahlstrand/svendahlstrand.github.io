@@ -1,3 +1,6 @@
+https://svendahlstrand.se/* https://dahlstrand.net/:splat 301!
+https://www.svendahlstrand.se/* https://dahlstrand.net/:splat 301!
+
 /en/*         /:splat
 /skriverier/  /writing/
 /projekt/     /projects/

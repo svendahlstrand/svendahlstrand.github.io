@@ -1,0 +1,18 @@
+/* HUMAN */
+
+Factotum: Sven Dahlstrand
+Contact: sven@dahlstrand.net
+
+/* THANKS */
+
+Illustrations: graphicat
+Web: https://www.fiverr.com/graphicat
+
+Photos and illustration: Sanna Lund
+Web: http://sannalund.se
+
+/* SITE */
+
+Standards: HTML5, CSS3, ECMAScript
+Software: Jekyll, Git, Sublime Text
+Service providers: GitHub, CloudFlare, Let's Encrypt, Netlify

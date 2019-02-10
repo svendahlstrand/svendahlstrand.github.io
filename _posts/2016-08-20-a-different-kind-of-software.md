@@ -40,5 +40,5 @@ Martin Sahlin, Creative Director at Coldwood Interactive, shared [how to make yo
 
 [1]: http://sannalund.se
 [2]: http://www.ravelry.com/patterns/library/baby-monster-beginner-amigurumi
-[3]: http://shop.mohumohu.com/product/crochet-pattern-amigurumi-elephant
+[3]: https://shop.mohumohu.com/listing/252077997/crochet-elephant-pattern-easy-amigurumi
 [4]: http://www.unravelgame.com/unravel-make-yarny-guide

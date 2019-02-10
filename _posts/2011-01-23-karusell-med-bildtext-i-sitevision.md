@@ -11,7 +11,7 @@ En fortsättning på föregående avsnitt. Här bygger jag ut funktionaliteten s
 
 ## Sitter du i SiteVision 2.6.2_04 eller senare?
 
-Om du läser det här i framtiden och sitter i SiteVision 2.6.2\_04 eller senare är det nu **ännu enklare** att få bildtext till karusellen. Som [Magnus skriver i kommentarerna] [1] finns det nu en metod på _ImageRenderer_ så att den skriver ut title-attributet. Rulla ner och läs kommentaren och [ta en titt på den uppdaterade källkoden] [2]. Tack Magnus!
+Om du läser det här i framtiden och sitter i SiteVision 2.6.2\_04 eller senare är det nu **ännu enklare** att få bildtext till karusellen. Som Magnus skriver i kommentarerna finns det nu en metod på _ImageRenderer_ så att den skriver ut title-attributet. Rulla ner och läs kommentaren och [ta en titt på den uppdaterade källkoden] [2]. Tack Magnus!
 
 ## Länkar
 
@@ -20,7 +20,6 @@ Om du läser det här i framtiden och sitter i SiteVision 2.6.2\_04 eller senare
 * [Nivo Slider - The Most Awesome jQuery Image Slider] [5]
 * [Källkoden för det här avsnittet] [6]
 
-[1]: http://disqus.com/twitter-205243100/
 [2]: https://github.com/svendahlstrand/sitevision-episodes/tree/master/003-carousel-caption/sitevision-2.6.2_04
 [3]: /karusell-med-intelligenta-mallar-i-sitevision
 [4]: http://developer.sitevision.se/webdav/files/apidocs/index.html

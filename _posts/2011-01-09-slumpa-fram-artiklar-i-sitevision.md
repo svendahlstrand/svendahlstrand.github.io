@@ -15,6 +15,6 @@ Lär dig hur du med hjälp av Skriptmodulen i SiteVision slumpar fram artiklar u
 * [Choosing Random Elements - Adventures in Learning] [2]
 * [Källkoden för det här avsnittet] [3]
 
-[1]: https://blogs.msdn.microsoft.com/spt/2008/02/05/reservoir-sampling/
+[1]: https://web.archive.org/web/20181013022822/https://blogs.msdn.microsoft.com/spt/2008/02/05/reservoir-sampling/
 [2]: http://propersubset.com/2010/04/choosing-random-elements.html
 [3]: https://github.com/svendahlstrand/sitevision-episodes/tree/master/001-random-articles

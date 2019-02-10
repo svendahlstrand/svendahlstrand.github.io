@@ -25,5 +25,5 @@ Foto: [Sanna Lund][5]
 [1]: http://en.wikipedia.org/wiki/Caipirinha
 [2]: http://en.wikipedia.org/wiki/Cachaça
 [3]: http://www.systembolaget.se/dryck/sprit/havana-club-51101
-[4]: http://www.prisjakt.nu/bok.php?p=1059838
+[4]: https://www.goodreads.com/book/show/3275567-the-essential-cocktail
 [5]: http://sannalund.se

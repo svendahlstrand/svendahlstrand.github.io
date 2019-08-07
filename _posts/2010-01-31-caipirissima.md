@@ -8,7 +8,7 @@ Jag älskar rom och drinkar som är baserade på detta sockerrörsdestillat. Jag
 
 Caipirinhan föddes på den brasilianska landsbygden för många år sedan. Den ska blandas med [cachaça] [2] som är en spritdryck gjord på sockerrör men som alltså inte är rom. I Brasilien finns det tusentals tillverkare av denna dryck men det är få som hittar till Sverige och Systembolaget.
 
-Byter vi ut cachaçan mot ljus rom får vi en variant som är mins lika god - Caipirissima. Jag rekommenderar [Havana Club Añejo Blanco (nr 511)] [3]. Följande recept har jag hämtat från Dale Degroffs bok [The Essential Cocktail] [4]. Allra helst njuter man den en varm sommardag, men den är god en kall januarikväll också.
+Byter vi ut cachaçan mot ljus rom får vi en variant som är mins lika god - Caipirissima. Jag rekommenderar [Havana Club Añejo 3 Años (nr 568)] [3]. Följande recept har jag hämtat från Dale Degroffs bok [The Essential Cocktail] [4]. Allra helst njuter man den en varm sommardag, men den är god en kall januarikväll också.
 
 ## Recept
 
@@ -24,6 +24,6 @@ Foto: [Sanna Lund][5]
 
 [1]: http://en.wikipedia.org/wiki/Caipirinha
 [2]: http://en.wikipedia.org/wiki/Cachaça
-[3]: http://www.systembolaget.se/dryck/sprit/havana-club-51101
+[3]: https://www.systembolaget.se/dryck/sprit/havana-club-anejo-56801
 [4]: https://www.goodreads.com/book/show/3275567-the-essential-cocktail
 [5]: http://sannalund.se

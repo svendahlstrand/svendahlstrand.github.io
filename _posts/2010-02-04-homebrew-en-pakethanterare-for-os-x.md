@@ -43,5 +43,5 @@ Det är också lätt att bidra till Homebrew, jag har själv skickat in ett par 
 [4]: http://www.finkproject.org/
 [5]: http://www.macports.org/
 [6]: http://github.com/mxcl/homebrew
-[7]: http://developer.apple.com/technologies/xcode.html
-[8]: http://wiki.github.com/mxcl/homebrew/formula-cookbook
+[7]: https://developer.apple.com/xcode/
+[8]: https://docs.brew.sh/Formula-Cookbook

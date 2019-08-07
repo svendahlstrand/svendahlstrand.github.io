@@ -17,4 +17,4 @@ Jag har samlat ett par artiklar och ett gäng verktyg som ger dig snabbare webbs
 * [Seven Mistakes That Make Websites Slow](http://www.sitepoint.com/seven-mistakes-that-make-websites-slow)
 * [YSlow](http://developer.yahoo.com/yslow) och [Page Speed](https://developers.google.com/speed/pagespeed/): analyserar webbsidor och kommer med tips för att snabba upp dem.
 * [Pingdom Tools](http://tools.pingdom.com/fpt): webbaserat verktyg som testar en sidas laddtid.
-* [Firebug](http://getfirebug.com), [Safari](http://developer.apple.com/technologies/safari/developer-tools.html) och [Chromes](https://developer.chrome.com/devtools) utvecklarverktyg.
+* [Firebug](http://getfirebug.com), [Safari](https://developer.apple.com/safari/tools/) och [Chromes](https://developer.chrome.com/devtools) utvecklarverktyg.

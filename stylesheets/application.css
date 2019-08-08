@@ -92,13 +92,6 @@ section h2 {
   transform: translate3d(0, 0, 0);
 }
 
-.limepark {
-  color: #fff;
-}
-
-.limepark .action-link {
-  color: #fff;
-}
 /* Homepage responsive typography */
 
 @media (min-width: 32.8em) {
@@ -210,10 +203,6 @@ section {
 
 .spelkosmos {
   background: #00042f;
-}
-
-.limepark {
-  background: #8fac21;
 }
 
 .spelkosmos .action-link {

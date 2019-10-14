@@ -16,7 +16,6 @@ permalink: /writing/
             <a href="{{ post.url }}" class="u-url">{{ post.title }}</a>
             {% include flag.html language=post.language %}
           </h2>
-          <p class="p-summary">{{ post.summary }}</p>
         </li>
       {% endunless %}
     {% endfor %}
@@ -33,7 +32,6 @@ permalink: /writing/
             <a href="{{ post.url }}" class="u-url">{{ post.title }}</a>
             {% include flag.html language=post.language %}
           </h3>
-          <p class="p-summary">{{ post.summary }}</p>
         </li>
       {% endif %}
     {% endfor %}

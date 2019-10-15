@@ -65,9 +65,14 @@ h3 {
 /* Homepage typography */
 
 header h1 {
-  line-height: 1.3;
-  text-align: center;
-  margin: 0.2em 0 0 0;
+  display: inline;
+  font-size: 1.2em;
+  font-weight: normal;
+}
+
+header p {
+  font-size: 1.2em;
+  display: inline;
 }
 
 section h2 {
@@ -95,14 +100,7 @@ section h2 {
 /* Homepage responsive typography */
 
 @media (min-width: 32.8em) {
-  header h1 {
-    margin: 0;
-  }
 
-  header p {
-    margin-top: 0;
-    text-align: center;
-  }
 }
 
 /* Subpages typography */
@@ -137,19 +135,12 @@ input:focus {
 /* Homepage layout */
 
 header {
-  padding: 1em 0;
-  margin: 0 1em;
-  overflow: auto;
+  background: url('../images/sven.png') no-repeat;
+  background-size: 80px;
+  background-position: top center;
   border-bottom: solid 2px #d3d3d3;
-}
-
-header img {
-  float: left;
-  margin-bottom: 1em;
-}
-
-header p {
-  clear: both;
+  padding: calc(80px + 2em) 0 1em 0;
+  margin: 2em 1em 0 1em;
 }
 
 .extra-copy,
@@ -223,8 +214,9 @@ section {
 }
 
 @media (min-width: 32.8em) {
-  header p {
-    clear: none;
+  header {
+    background-position: top left;
+    padding: 0 1em 1em calc(80px + 1.5em);
   }
 }
 

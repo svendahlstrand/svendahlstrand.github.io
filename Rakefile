@@ -6,7 +6,10 @@ task :test do
                               empty_alt_ignore: true,
                               check_html: true,
                               only_4xx: true,
-                              http_status_ignore: [401,403]).run
+                              url_ignore: [
+                                'https://indieauth.com/auth',
+                                'https://micropubs.herokuapp.com/micropub/main'
+                              ]).run
 end
 
 task default: [:test]

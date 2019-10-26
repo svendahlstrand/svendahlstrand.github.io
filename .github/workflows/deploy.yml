@@ -1,4 +1,4 @@
-name: Deploy Website over SFTP
+name: Deploy Website Over FTP
 
 on: [push]
 
@@ -22,12 +22,11 @@ jobs:
     - name: Build
       run: bundle exec jekyll build
 
-    - name: Deploy
+    - name: Upload
       uses: SamKirkland/FTP-Deploy-Action@2.0.0
       env:
-        FTP_SERVER: ${{ secrets.SFTP_HOST }}
-        FTP_USERNAME: ${{ secrets.SFTP_USERNAME }}
-        FTP_PASSWORD: ${{ secrets.SFTP_PASSWORD }}
-        METHOD: sftp
+        FTP_SERVER: ${{ secrets.FTP_HOST }}
+        FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+        FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
         LOCAL_DIR: _site
         ARGS: --delete

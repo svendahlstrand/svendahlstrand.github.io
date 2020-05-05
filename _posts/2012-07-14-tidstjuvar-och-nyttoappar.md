@@ -4,7 +4,7 @@ title: Tidstjuvar och nyttoappar
 language: sv
 ---
 
-![](/images/iphone.jpg)
+<img src="/images/iphone.jpg" alt="" width="930" height="523" />
 
 Foto: [Sanna Lund][1]
 

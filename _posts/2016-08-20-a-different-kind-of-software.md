@@ -10,7 +10,7 @@ Last winter my mom taught me the art of crocheting. Since then I've started to d
 
 ## Pokey
 
-![](/images/pokey.jpg)
+<img src="/images/pokey.jpg" alt="" width="1120" height="747" />
 
 My first project! I didn't intend to make it look like the ghost Pokey, from the Pacman games, but I think it does.
 
@@ -18,7 +18,7 @@ I used a pattern by Allison Hoffman. Why not [crochet your own monster][2]?
 
 ## Fanten
 
-![](/images/fanten.jpg)
+<img src="/images/fanten.jpg" alt="" width="1120" height="747" />
 
 Photo by: [Sanna Lund][1]
 
@@ -28,7 +28,7 @@ Móhu designed the pattern [Amigurumi Elephant][3].
 
 ## Yarny
 
-![](/images/yarny.jpg)
+<img src="/images/yarny.jpg" alt="" width="1120" height="747" />
 
 Photo by: [Sanna Lund][1]
 

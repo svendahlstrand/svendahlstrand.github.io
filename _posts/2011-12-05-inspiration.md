@@ -5,7 +5,7 @@ tags: archived
 language: sv
 ---
 
-![Dribble](/images/dribble.jpg)
+<img src="/images/dribble.jpg" alt="" width="680" height="502" />
 
 Jag är utvecklare först och främst men likt förbannat behöver jag värka fram designelement då och då. Ibland står huvudet still och jag har ingen aning om hur jag ska utforma den där [knappen](http://dribbble.com/search?q=button), [inloggnings-rutan](http://ui-patterns.com/explore/collections/login-forms) eller vad det nu kan tänkas vara. Det finns många sätt att hämta inspiration: man kan gå utanför dörren, bläddra i tidningar eller sova på saken. Ett av de bästa knepen är att lämna datorn.
 

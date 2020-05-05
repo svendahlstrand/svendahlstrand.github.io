@@ -5,7 +5,7 @@ tags: project
 language: sv
 ---
 
-![](/images/tandborststall.jpg)
+<img src="/images/tandborststall.jpg" alt="" width="1000" height="667" />
 
 Foto: [Sanna Lund][1]
 

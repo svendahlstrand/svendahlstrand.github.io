@@ -5,7 +5,7 @@ en: /lars-and-the-inbox/
 language: sv
 ---
 
-![](/images/lars.jpg)
+<img src="/images/lars.jpg" alt="" width="930" height="523" />
 
 Illustration: [Sanna Lund][1]
 

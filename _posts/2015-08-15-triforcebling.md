@@ -5,7 +5,7 @@ tags: project
 language: sv
 ---
 
-![](/images/triforcebling.jpg)
+<img src="/images/triforcebling.jpg" alt="" width="1000" height="667" />
 
 Foto: [Sanna Lund][1]
 

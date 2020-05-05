@@ -6,7 +6,7 @@ language: sv
 ---
 Idag använder jag webben på ett helt annat sätt än för 10 år sedan. De flesta av de applikationer jag  använder har flyttat ut på Internet. E-post, kalender och att göra-listor är några exempel. Det finns dock några nackdelar med att köra dessa i webbläsaren. De tar upp plats med flera tabbar och man kan inte nyttja OS X Exposé-funktion för att få en översikt. Jag saknar också att ha en Dock-ikon med med statusinformation, som till exempel antalet olästa e-brev.
 
-![](/images/dock.jpg)
+<img src="/images/dock.jpg" alt="" width="680" height="40" />
 
 [Platsspecifika webbläsare] [1] kallas lösningen på problemet och till Macen har vi Mozillas [Prism] [2] och Todd Ditchendorfs [Fluid] [3] att välja på. Dessa program hjälper dig att skapa en skrivbordsapplikation av valfri webbsida. Fluid och Prism är ganska likvärdiga i funktionalitet men bygger på olika renderingsmotorer - WebKit respektive Gecko.
 

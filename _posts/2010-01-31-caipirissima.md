@@ -18,7 +18,7 @@ Byter vi ut cachaçan mot ljus rom får vi en variant som är mins lika god - Ca
 
 Lägg limeklyftorna i ett lågt glas och strö över socker. Muddla för att pressa ut juicen och oljan. Fyll på med krossad is och rom - rör om och servera.
 
-![](/images/caipirissima.jpg)
+<img src="/images/caipirissima.jpg" alt="" width="680" height="453" />
 
 Foto: [Sanna Lund][5]
 

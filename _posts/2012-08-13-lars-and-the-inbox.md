@@ -5,7 +5,7 @@ highlight_icon: inkorg
 sv: /lars-och-inkorgen/
 ---
 
-![](/images/lars.jpg)
+<img src="/images/lars.jpg" alt="" width="930" height="523" />
 
 Illustration by: [Sanna Lund][1]
 

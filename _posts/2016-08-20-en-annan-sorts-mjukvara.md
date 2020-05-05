@@ -10,7 +10,7 @@ I vintras gick jag virkkurs hos min mamma och sen dess har jag börjat utveckla 
 
 ## Pokey
 
-![](/images/pokey.jpg)
+<img src="/images/pokey.jpg" alt="" width="1120" height="747" />
 
 Det här var mitt allra första projekt. Även om det inte var min tanke, tycker jag figuren liknar spöket Pokey från Pac-Man-spelen.
 
@@ -18,7 +18,7 @@ Jag utgick från ett mönster av Allison Hoffman. Om du vill kan du [virka ditt 
 
 ## Fanten
 
-![](/images/fanten.jpg)
+<img src="/images/fanten.jpg" alt="" width="1120" height="747" />
 
 Foto: [Sanna Lund][1]
 
@@ -28,7 +28,7 @@ I Japan kallas små virkade leksaker för amigurumi. Den här elefanten blev en 
 
 ## Yarny
 
-![](/images/yarny.jpg)
+<img src="/images/yarny.jpg" alt="" width="1120" height="747" />
 
 Foto: [Sanna Lund][1]
 

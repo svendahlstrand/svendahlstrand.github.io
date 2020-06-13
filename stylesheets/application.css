@@ -145,8 +145,7 @@ header {
   margin: 2em 1em 0 1em;
 }
 
-.extra-copy,
-.hidden {
+.extra-copy {
   display: none;
 }
 
@@ -280,7 +279,7 @@ footer {
   margin: 1em 0;
 }
 
-.search-field, .search-button {
+.search-field, #search-button {
   font-size: 1em;
   border-radius: 4px;
 }
@@ -298,7 +297,7 @@ footer {
   border-color: #003c7a;
 }
 
-.search-button {
+#search-button {
   background: #06a;
   padding: 12px 24px;
   border: none;
@@ -307,12 +306,12 @@ footer {
   margin-left: 0.2em;
 }
 
-.search-button:hover,
-.search-button:focus {
+#search-button:hover,
+#search-button:focus {
   background: #003c7a;
 }
 
-.search-button:active {
+#search-button:active {
   background: #003c7a;
   box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.8);
 }

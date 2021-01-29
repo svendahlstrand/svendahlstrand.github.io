@@ -12,11 +12,10 @@ Här är är tre snabba boktips som gjort skillnad:
 * [Getting Things Done] [2]: Typisk amerikansk bok med mycket upprepningar men som helt förändrat hur jag jobbar med mina att göra-listor.
 * [Focus] [3]: Innan jag läste den här boken var jag helt säker på att jag kunde ”multi-taska” – det kan jag inte! Den digitala varianten är gratis.
 
-Nästa bok som ligger i att läsa-högen (om man nu kan räkna iPad som en hög) är [Read This Before Our Next Meeting] [4]. Men hur många böcker jag än läser är det jag själv som måste se till att förändras och det är inte helt lätt.
+Nästa bok som ligger i att läsa-högen (om man nu kan räkna iPad som en hög) är Read This Before Our Next Meeting. Men hur många böcker jag än läser är det jag själv som måste se till att förändras och det är inte helt lätt.
 
 Jag ser till att fira varje litet framsteg!
 
 [1]: http://37signals.com/rework
 [2]: https://gettingthingsdone.com/books/
 [3]: https://zenhabits.net/focus-book/
-[4]: http://modernmeetingstandard.com/the-book

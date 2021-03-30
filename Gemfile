@@ -7,6 +7,9 @@ group :jekyll_plugins do
 end
 
 group :test do
+  # FIXME: Temporary workaround for Apple Silicon Macs.
+  gem 'ethon', github: 'typhoeus/ethon'
+
   gem 'html-proofer'
   gem 'rake'
 end
